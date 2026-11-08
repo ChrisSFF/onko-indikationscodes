@@ -407,8 +407,8 @@ def main():
     meta = {
         "built": today,
         "source": BAG_URL,
-        "codes_total": sum(r["specific"] for r in rows),
-        "codes_onko": sum(1 for r in rows if r["group"] and r["specific"]),
+        "codes_total": len({r["code"] for r in rows if r["specific"]}),
+        "codes_onko": len({r["code"] for r in rows if r["group"] and r["specific"]}),
         "brands_onko": len({r["brand"] for r in rows if r["group"] and r["specific"]}),
     }
 

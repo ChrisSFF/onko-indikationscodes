@@ -38,7 +38,7 @@ h1{font-size:24px;line-height:1.25;margin:0 0 6px;letter-spacing:-.01em}
 .credit a{color:var(--accent)}
 .controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 12px;border-bottom:1px solid var(--line)}
 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-input[type=search]{flex:1 1 280px;min-width:0;font:inherit;padding:10px 12px;border:1px solid var(--line);
+input[type=search]{flex:1 1 220px;min-width:0;font:inherit;padding:10px 12px;border:1px solid var(--line);
   border-radius:8px;background:var(--surface);color:var(--ink)}
 input[type=search]:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
@@ -46,7 +46,7 @@ input[type=search]:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .seg button[aria-pressed=true]{background:var(--accent);color:#fff}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .seg button[aria-pressed=true]{color:#0d1a1e}}
 select{font:inherit;font-size:14px;padding:9px 34px 9px 12px;border:1px solid var(--line);border-radius:8px;
-  color:var(--ink);max-width:100%;flex:0 1 300px;-webkit-appearance:none;appearance:none;cursor:pointer;
+  color:var(--ink);max-width:100%;flex:0 1 230px;min-width:150px;-webkit-appearance:none;appearance:none;cursor:pointer;
   background:var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%235d6865' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 12px center}
 .btn{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:14px;text-decoration:none;
   padding:9px 12px;border-radius:8px;border:1px solid var(--accent);color:var(--accent);background:var(--surface)}
@@ -124,7 +124,7 @@ footer a{color:var(--accent)}
 
 <main>
   <div class="wrap">
-    <p class="notice"><b>Disclaimer:</b> Massgebend ist allein die Spezialitätenliste des BAG (<a href="https://sl.bag.admin.ch/sl" target="_blank" rel="noopener">sl.bag.admin.ch</a>). Die Codes stammen unverändert aus den BAG-Daten. Die Kurztexte sind gekürzte Fassungen und noch nicht fachlich geprüft (ausser mit ✓ markiert) – vor Übernahme auf Verordnungen prüfen. Verschiedene Darreichungsformen (z.B. i.v. und s.c.) können unterschiedliche Codes haben.</p>
+    <p class="notice"><b>Disclaimer:</b> Massgebend ist allein die Spezialitätenliste des BAG (<a href="https://sl.bag.admin.ch/sl" target="_blank" rel="noopener">sl.bag.admin.ch</a>). Die Codes stammen unverändert aus den BAG-Daten. Die Kurztexte dienen der Orientierung; für die Vergütung massgebend ist der vollständige Limitationstext. Verschiedene Darreichungsformen (z.B. i.v. und s.c.) können unterschiedliche Codes haben.</p>
     <div id="changes"></div>
     <div id="list"></div>
   </div>

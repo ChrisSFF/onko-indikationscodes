@@ -1,11 +1,32 @@
 <!doctype html>
-<html lang="de">
+<html lang="de-CH">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Indikationscodes Onkologie</title>
+<title>Indikationscodes Onkologie &amp; Hämatologie | BAG-Spezialitätenliste</title>
+<meta name="description" content="Alle onkologischen und hämatologischen Arzneimittel der BAG-Spezialitätenliste, die einen Indikationscode verlangen: Code, Kurztext und vollständiger Limitationstext. Monatlich aktualisiert, mit Excel-Download.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://onko.crystalventures.ch/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_CH">
+<meta property="og:url" content="https://onko.crystalventures.ch/">
+<meta property="og:title" content="Indikationscodes Onkologie &amp; Hämatologie">
+<meta property="og:description" content="Welche Präparate der BAG-Spezialitätenliste einen Indikationscode verlangen, mit Code und Kurztext. Monatlich aktualisiert.">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"WebSite","@id":"https://onko.crystalventures.ch/#website","url":"https://onko.crystalventures.ch/","name":"Indikationscodes Onkologie & Hämatologie","inLanguage":"de-CH"},
+ {"@type":"Dataset","name":"Indikationscodes Onkologie & Hämatologie (BAG-Spezialitätenliste)","description":"Onkologische und hämatologische Arzneimittel der Schweizer Spezialitätenliste (BAG), die bei der Abrechnung einen Indikationscode verlangen, mit Code, Kurztext und Limitationstext. Monatlich aktualisiert.","url":"https://onko.crystalventures.ch/","inLanguage":"de-CH","isAccessibleForFree":true,"isBasedOn":"https://sl.bag.admin.ch/sl","keywords":["Indikationscode","Spezialitätenliste","BAG","Onkologie","Hämatologie","Limitation","Preismodell"],"distribution":[{"@type":"DataDownload","encodingFormat":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","contentUrl":"https://onko.crystalventures.ch/Indikationscodes_Onkologie_Haematologie.xlsx"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://onko.crystalventures.ch/data/codes.json"}]}
+]}
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1611GMX1ZW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1611GMX1ZW');
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e5f'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EIC%3C/text%3E%3C/svg%3E">
-<meta name="description" content="Arbeitshilfe: Indikationscodes gemäss BAG-Spezialitätenliste für onkologische und hämatologische Arzneimittel.">
 <style>
 :root{
   --bg:#f6f7f5; --surface:#ffffff; --ink:#1c2321; --muted:#5d6865; --line:#dfe3e0;
@@ -141,7 +162,7 @@ footer a{color:var(--accent)}
 (function(){
   "use strict";
   var DATA = window.__CODES__ || null, META = window.__META__ || null, CHANGES = window.__CHANGES__ || null;
-  var state = { q: "", scope: "onko", grp: "" };
+  var state = { q: "", scope: "onko", grp: "" }, rowsShown = 0;
   var $ = function(id){ return document.getElementById(id); };
 
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, function(c){
@@ -218,6 +239,7 @@ footer a{color:var(--accent)}
       byBrand[k].push(r);
     });
     order.sort(function(a,b){ return a.localeCompare(b, "de", {numeric:true}); });
+    rowsShown = rows.length;
     var nb = {}; order.forEach(function(k){ nb[k.split("|")[0]] = 1; });
     $("count").textContent = rows.length + " Codes · " + Object.keys(nb).length + " Präparate";
     if (!rows.length) { $("list").innerHTML = '<div class="empty">Keine Treffer.</div>'; return; }
@@ -237,10 +259,10 @@ footer a{color:var(--accent)}
         var flag = r.short_status === "geprüft" ? '<span class="ok" title="Kurztext fachlich geprüft">✓ geprüft</span>' : "";
         var valid = (r.start ? "gültig ab " + fmtDate(r.start) : "") + (r.end ? " · befristet bis " + fmtDate(r.end) : "");
         html += '<tr><td class="code"><div class="codev">' + hl(r.code, rawTerms) + '</div>' +
-          '<button class="copy" type="button" data-code="' + esc(r.code) + '">kopieren</button></td>' +
+          '<button class="copy" type="button" data-code="' + esc(r.code) + '" data-brand="' + esc(b) + '">kopieren</button></td>' +
           '<td><p class="short">' + hl(r.short, rawTerms) + flag + '</p>' +
           (valid ? '<div class="valid">' + esc(valid) + '</div>' : '') +
-          '<details class="more"><summary>Limitationstext BAG</summary><div class="full">' + esc(r.text) + '</div></details></td></tr>';
+          '<details class="more" data-code="' + esc(r.code) + '" data-brand="' + esc(b) + '"><summary>Limitationstext BAG</summary><div class="full">' + esc(r.text) + '</div></details></td></tr>';
       });
       html += "</table></section>";
     });
@@ -252,12 +274,30 @@ footer a{color:var(--accent)}
     var m = a.getAttribute("data-u") + "@" + a.getAttribute("data-d");
     a.textContent = m; a.setAttribute("href", "mailto:" + m); })();
 
+  // Google Analytics events (no-op if GA is blocked)
+  function track(name, params){ try { if (window.gtag) window.gtag("event", name, params || {}); } catch(e){} }
+  var lastTracked = "", st;
+  function trackSearch(){
+    var q = state.q; if (q.length < 2 || q === lastTracked) return;
+    lastTracked = q;
+    track("search", { search_term: q.slice(0, 100), result_count: rowsShown });
+  }
+
   var t;
-  $("q").addEventListener("input", function(e){ clearTimeout(t); t = setTimeout(function(){ state.q = e.target.value.trim(); render(); }, 120); });
-  $("grp").addEventListener("change", function(e){ state.grp = e.target.value; render(); });
+  $("q").addEventListener("input", function(e){
+    clearTimeout(t); t = setTimeout(function(){ state.q = e.target.value.trim(); render(); }, 120);
+    clearTimeout(st); st = setTimeout(trackSearch, 1500);
+  });
+  $("q").addEventListener("blur", function(){ clearTimeout(st); trackSearch(); });
+  $("grp").addEventListener("change", function(e){ state.grp = e.target.value; render(); track("filter", { filter_type: "gruppe", filter_value: state.grp || "alle" }); });
+  document.addEventListener("toggle", function(e){
+    var d = e.target; if (!d.classList || !d.classList.contains("more") || !d.open) return;
+    track("view_limitation", { indication_code: d.getAttribute("data-code"), drug_name: d.getAttribute("data-brand") });
+  }, true);
   Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(btn){
     btn.addEventListener("click", function(){
       state.scope = btn.getAttribute("data-scope");
+      track("filter", { filter_type: "umfang", filter_value: state.scope });
       Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(b){ b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
       render();
     });
@@ -265,6 +305,7 @@ footer a{color:var(--accent)}
   $("list").addEventListener("click", function(e){
     var b = e.target.closest(".copy"); if (!b) return;
     var c = b.getAttribute("data-code");
+    track("copy_code", { indication_code: c, drug_name: b.getAttribute("data-brand") });
     var done = function(){ b.textContent = "kopiert ✓"; setTimeout(function(){ b.textContent = "kopieren"; }, 1400); };
     if (navigator.clipboard) navigator.clipboard.writeText(c).then(done, function(){}); else done();
   });

@@ -422,6 +422,12 @@ def main():
     (DOCS_DATA / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
     history_path.write_text(json.dumps(history, ensure_ascii=False, indent=1))
     write_xlsx(rows, ch, meta)
+    (ROOT / "docs" / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f'  <url><loc>https://onko.crystalventures.ch/</loc><lastmod>{today}</lastmod>'
+        '<changefreq>monthly</changefreq></url>\n'
+        '</urlset>\n', encoding="utf-8")
     print(json.dumps(meta, ensure_ascii=False, indent=1))
     print(f"changes: +{len(ch['added'])} ~{len(ch['changed'])} -{len(ch['removed'])}")
 

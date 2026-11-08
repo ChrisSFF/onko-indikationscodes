@@ -1,0 +1,4 @@
+sl-de.ndjson
+*.ndjson
+__pycache__/
+.DS_Store

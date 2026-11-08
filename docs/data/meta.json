@@ -1,7 +1,7 @@
 {
  "built": "2026-11-08",
  "source": "https://epl.bag.admin.ch/static/sl/publication/fhir/foph-sl-publication-latest-de.ndjson",
- "codes_total": 1014,
- "codes_onko": 621,
- "brands_onko": 191
+ "codes_total": 999,
+ "codes_onko": 619,
+ "brands_onko": 189
 }

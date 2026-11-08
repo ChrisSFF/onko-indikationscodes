@@ -1399,9 +1399,19 @@
   "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
   "status": "KI, ungeprüft"
  },
+ "21243.01|Pemetrexed-Teva": {
+  "hash": "a51a2aa522",
+  "short": "NSCLC nicht-plattenepithelial, 1L, Kombination mit Cisplatin",
+  "status": "KI, ungeprüft"
+ },
  "21243.01|Pemetrexed-Teva liquid": {
   "hash": "a51a2aa522",
   "short": "NSCLC nicht-plattenepithelial, 1L, Kombination mit Cisplatin",
+  "status": "KI, ungeprüft"
+ },
+ "21243.02|Pemetrexed-Teva": {
+  "hash": "e0dd5741ec",
+  "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
   "status": "KI, ungeprüft"
  },
  "21243.02|Pemetrexed-Teva liquid": {
@@ -1409,13 +1419,28 @@
   "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
   "status": "KI, ungeprüft"
  },
+ "21251.01|Pemetrexed Sandoz": {
+  "hash": "da87dc0dd5",
+  "short": "NSCLC nicht-plattenepithelial, 1L, Kombination mit Cisplatin",
+  "status": "KI, ungeprüft"
+ },
  "21251.01|Pemetrexed Sandoz conc.": {
   "hash": "da87dc0dd5",
   "short": "NSCLC nicht-plattenepithelial, 1L, Kombination mit Cisplatin",
   "status": "KI, ungeprüft"
  },
+ "21251.02|Pemetrexed Sandoz": {
+  "hash": "d9ed050896",
+  "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
  "21251.02|Pemetrexed Sandoz conc.": {
   "hash": "d9ed050896",
+  "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
+ "21262.02|Pemetrexed Accord": {
+  "hash": "8416c5e71c",
   "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
   "status": "KI, ungeprüft"
  },
@@ -2414,6 +2439,11 @@
   "short": "Neuroblastom rezidiviert/refraktär, mit Isotretinoin oder Monotherapie",
   "status": "KI, ungeprüft"
  },
+ "21752.01|B12 Ankermann": {
+  "hash": "b8aaa7939a",
+  "short": "Vitamin-B12-Mangel, Erwachsene",
+  "status": "KI, ungeprüft"
+ },
  "21752.01|B12 Ankermann Drag": {
   "hash": "b8aaa7939a",
   "short": "Vitamin-B12-Mangel, Erwachsene",
@@ -2644,9 +2674,19 @@
   "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
   "status": "automatisch"
  },
+ "22031.01|Nintedanib Zentiva": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
  "22031.01|Nintedanib Zentiva Weichkaps": {
   "hash": "f186096a2b",
   "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
+ "22031.02|Nintedanib Zentiva": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
   "status": "KI, ungeprüft"
  },
  "22031.02|Nintedanib Zentiva Weichkaps": {
@@ -2654,9 +2694,19 @@
   "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
   "status": "KI, ungeprüft"
  },
+ "22031.03|Nintedanib Zentiva": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ },
  "22031.03|Nintedanib Zentiva Weichkaps": {
   "hash": "da1863f8fa",
   "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ },
+ "22033.01|Nintedanib Sandoz": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
   "status": "KI, ungeprüft"
  },
  "22033.01|Nintedanib Sandoz Weichkaps": {
@@ -2664,9 +2714,19 @@
   "short": "Idiopathische Lungenfibrose (IPF)",
   "status": "KI, ungeprüft"
  },
+ "22033.02|Nintedanib Sandoz": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
  "22033.02|Nintedanib Sandoz Weichkaps": {
   "hash": "0856015050",
   "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22033.03|Nintedanib Sandoz": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
   "status": "KI, ungeprüft"
  },
  "22033.03|Nintedanib Sandoz Weichkaps": {
@@ -2674,14 +2734,29 @@
   "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
   "status": "KI, ungeprüft"
  },
+ "22035.01|Nintedanib-Mepha": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
  "22035.01|Nintedanib-Mepha Weichkaps": {
   "hash": "f186096a2b",
   "short": "Idiopathische Lungenfibrose (IPF)",
   "status": "KI, ungeprüft"
  },
+ "22035.02|Nintedanib-Mepha": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
  "22035.02|Nintedanib-Mepha Weichkaps": {
   "hash": "0856015050",
   "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22035.03|Nintedanib-Mepha": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
   "status": "KI, ungeprüft"
  },
  "22035.03|Nintedanib-Mepha Weichkaps": {
@@ -2709,14 +2784,29 @@
   "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
   "status": "automatisch"
  },
+ "22044.01|Nintedanib Spirig HC": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
  "22044.01|Nintedanib Spirig HC Weichkaps": {
   "hash": "f186096a2b",
   "short": "Idiopathische Lungenfibrose (IPF)",
   "status": "KI, ungeprüft"
  },
+ "22044.02|Nintedanib Spirig HC": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
  "22044.02|Nintedanib Spirig HC Weichkaps": {
   "hash": "0856015050",
   "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22044.03|Nintedanib Spirig HC": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
   "status": "KI, ungeprüft"
  },
  "22044.03|Nintedanib Spirig HC Weichkaps": {
@@ -2748,6 +2838,11 @@
   "hash": "0ed9bf3086",
   "short": "In Kombination mit Isatuximab und Dexamethason",
   "status": "automatisch"
+ },
+ "22081.01|Ezmekly": {
+  "hash": "1452136d3d",
+  "short": "Neurofibromatose Typ 1 mit symptomatischen inoperablen plexiformen Neurofibromen (ab 2 J.)",
+  "status": "KI, ungeprüft"
  },
  "22081.01|Ezmekly Hartkaps": {
   "hash": "1452136d3d",
@@ -3089,14 +3184,29 @@
   "short": "Ovarialkarzinom, Erhaltung nach 1L-Chemotherapie, Kombination mit Olaparib (Lynparza)",
   "status": "KI, ungeprüft"
  },
+ "22168.01|Nintedanib Leman": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
  "22168.01|Nintedanib Leman Weichkaps": {
   "hash": "f186096a2b",
   "short": "Idiopathische Lungenfibrose (IPF)",
   "status": "KI, ungeprüft"
  },
+ "22168.02|Nintedanib Leman": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
  "22168.02|Nintedanib Leman Weichkaps": {
   "hash": "0856015050",
   "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22168.03|Nintedanib Leman": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
   "status": "KI, ungeprüft"
  },
  "22168.03|Nintedanib Leman Weichkaps": {

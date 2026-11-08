@@ -1,0 +1,27 @@
+# Indikationscodes Onkologie & Hämatologie
+
+> Durchsuchbare Liste der BAG-Indikationscodes (Limitationen) für onkologische und hämatologische Arzneimittel der Schweizer Spezialitätenliste (SL), mit Kurztext und vollständigem Limitationstext. Monatlich automatisch aus dem offiziellen BAG-Export aktualisiert (CC0).
+>
+> Searchable list of Swiss BAG indication codes (reimbursement limitations) for oncology and haematology drugs on the Spezialitätenliste, updated monthly from the official BAG export. Content is in German.
+
+Massgebend ist allein die BAG-Spezialitätenliste (sl.bag.admin.ch), aus der die Codes unverändert stammen. Die Kurztexte dienen der Orientierung; für die Vergütung gilt der vollständige Limitationstext. Darreichungsformen (z.B. i.v./s.c.) können unterschiedliche Codes haben.
+
+Ein Indikationscode hat die Form `DDDDD.NN` (Dossiernummer des Präparats, Punkt, laufende Nummer der Indikation), z.B. `20416.01`. Codes auf `.XX` oder `.RB` sind allgemeine Hinweise ohne spezifische Indikation.
+
+Erstellt für das Onkologie & Hämatologie Zentrum, Spital Männedorf.
+
+## Daten
+
+- [Alle Codes (JSON)](https://onko.crystalventures.ch/data/codes.json): ein Eintrag pro Code und Präparat. Felder: `code`, `specific` (true = indikationsspezifischer Code), `brand`, `substance`, `atc`, `group` (Onko-/Häma-Gruppe, leer = andere Fachgebiete), `text` (vollständiger BAG-Limitationstext), `short` (Kurztext), `start`, `end`, `status`, `dossier`, `products`
+- [Metadaten (JSON)](https://onko.crystalventures.ch/data/meta.json): Datum der letzten Aktualisierung, Quelle und Anzahl Codes
+- [Änderungen seit letzter Aktualisierung (JSON)](https://onko.crystalventures.ch/data/changes.json): neue, geänderte und entfallene Codes
+- [Excel-Datei](https://onko.crystalventures.ch/Indikationscodes_Onkologie_Haematologie.xlsx): dieselben Daten als Tabelle
+
+## Quelle
+
+- [BAG-Spezialitätenliste](https://sl.bag.admin.ch): massgebende Quelle
+- [BAG ePL FHIR-Export](https://epl.bag.admin.ch/static/sl/publication/fhir/foph-sl-publication-latest-de.ndjson): Rohdaten (CC0), aus denen die Liste erstellt wird
+
+## Optional
+
+- [Webseite](https://onko.crystalventures.ch/): Suche und Filter nach Präparat, Wirkstoff, Code und Indikation

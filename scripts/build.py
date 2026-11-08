@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the Indikationscode list from the BAG Spezialit√§tenliste (ePL FHIR export).
+"""Build the Indikationscode list from the BAG Spezialitätenliste (ePL FHIR export).
 
 Usage:
     python scripts/build.py                 # download latest export, then build
@@ -126,11 +126,11 @@ def parse_bundle(bundle: dict):
 
 
 FORM_WORDS = {
-    "inf", "inj", "kaps", "tabl", "filmtabl", "l√∂s", "konz", "trockensub", "susp", "plv",
+    "inf", "inj", "kaps", "tabl", "filmtabl", "lös", "konz", "trockensub", "susp", "plv",
     "pulver", "fertspr", "fertpen", "durchstf", "amp", "gran", "tropfen", "supp", "salbe",
     "creme", "retard", "ret", "lyophilisat", "lyoph", "dispers", "brausetabl", "schmelztabl",
     "lacktabl", "depottabl", "implant", "implantat", "pen", "sirup", "emuls", "gel", "pfl",
-    "stick", "kit", "inhal", "spray", "l√∂sung", "s.c.", "i.v.",
+    "stick", "kit", "inhal", "spray", "lösung", "s.c.", "i.v.",
 }
 
 
@@ -194,29 +194,29 @@ def merge_rows(rows):
 SPLIT_PATTERNS = [
     r"\s(?=Nach Kostengutsprache)", r"\s(?=Als Monotherapie)", r"\s(?=Als Kombination)",
     r"\s(?=In Kombination)", r"\s(?=Nur nach)", r"\s(?=Nur auf)", r"\s(?=Zur )",
-    r"\s(?=Zum )", r"\s(?=F√ºr die)", r"\s(?=Die Behandlung)", r"\s(?=Behandlung )",
-    r"\s(?=Vor Therapiebeginn)", r"\s(?=Es gelten)", r"\s(?=Verg√ºtet wird)",
+    r"\s(?=Zum )", r"\s(?=Für die)", r"\s(?=Die Behandlung)", r"\s(?=Behandlung )",
+    r"\s(?=Vor Therapiebeginn)", r"\s(?=Es gelten)", r"\s(?=Vergütet wird)",
 ]
 
 
 def _tidy(s: str, brand: str = "") -> str:
     s = s.strip(" ,;:-")
-    if brand:  # "LENALIDOMID ACCORD in Kombination mit ‚Ä¶" -> "In Kombination mit ‚Ä¶"
+    if brand:  # "LENALIDOMID ACCORD in Kombination mit …" -> "In Kombination mit …"
         s = re.sub(rf"^{re.escape(brand)}\s+(?=(in|als)\b)", "", s, flags=re.I)
     s = re.sub(r"\s*\((mit|ohne)( oder ohne)? Preismodell[^)]*\)", "", s)
-    # drop a trailing sentence fragment after a title: "3L CLL (Monotherapie) Pirtobrutinib wird ‚Ä¶"
-    m = re.search(r"\s(?:[A-Z√Ñ√ñ√ú][\w-]*\s+)?(?:wird|ist)\s+(?:als|verg√ºtet|nur|indiziert|in)\b"
+    # drop a trailing sentence fragment after a title: "3L CLL (Monotherapie) Pirtobrutinib wird …"
+    m = re.search(r"\s(?:[A-ZÄÖÜ][\w-]*\s+)?(?:wird|ist)\s+(?:als|vergütet|nur|indiziert|in)\b"
                   r"|\s(?:Als Monotherapie|Die Therapie mit|Folgender)\b", s)
     if m and m.start() >= 10:
         s = s[:m.start()]
-        s = re.sub(r"\s+[A-Z√Ñ√ñ√ú][A-Z√Ñ√ñ√ú0-9-]{3,}$", "", s)  # stray brand name at the end
+        s = re.sub(r"\s+[A-ZÄÖÜ][A-ZÄÖÜ0-9-]{3,}$", "", s)  # stray brand name at the end
     s = re.sub(r"\s+\d{5}\.\d{2}$", "", s).strip(" ,;:-")
     return (s[:1].upper() + s[1:]) if s else s
 
 
 def heuristic_short(text: str, brand: str = "") -> str:
     t = re.sub(r"\s+", " ", text).strip()
-    if brand:  # drop a leading brand name: "LENALIDOMID ACCORD in Kombination ‚Ä¶"
+    if brand:  # drop a leading brand name: "LENALIDOMID ACCORD in Kombination …"
         t = re.sub(rf"^{re.escape(brand)}\s+(?=(in|als|wird)\b)", "", t, flags=re.I)
     m = re.search(r"\((mit|ohne)( oder ohne)? Preismodell[^)]*\)", t)
     if m and m.end() < 260:
@@ -231,7 +231,7 @@ def heuristic_short(text: str, brand: str = "") -> str:
             cut = min(cut, mm.start() + 8)
     s = _tidy(t[:cut], brand)
     if len(s) > 160:
-        s = s[:157].rsplit(" ", 1)[0] + " ‚Ä¶"
+        s = s[:157].rsplit(" ", 1)[0] + " …"
     return s
 
 
@@ -245,8 +245,8 @@ def claude_short(items):
         batch = items[i:i + 40]
         payload = [{"id": f"{it['code']}|{it['brand']}", "text": it["text"][:1500]} for it in batch]
         prompt = (
-            "Du erh√§ltst Limitationstexte aus der Schweizer Spezialit√§tenliste. Erstelle f√ºr jeden "
-            "einen Kurztext (max. 110 Zeichen) f√ºr ein Ankreuzfeld auf einer onkologischen "
+            "Du erhältst Limitationstexte aus der Schweizer Spezialitätenliste. Erstelle für jeden "
+            "einen Kurztext (max. 110 Zeichen) für ein Ankreuzfeld auf einer onkologischen "
             "Chemotherapieverordnung: Indikation, Therapielinie, Mono/Kombination und das "
             "entscheidende Kriterium (z.B. Biomarker). Keine Codes, keine Dosierungen, nichts "
             "erfinden, nur Fachbegriffe aus dem Text. Antworte nur mit JSON: "
@@ -279,13 +279,13 @@ def apply_short_texts(rows):
     for r in rows:
         k = f"{r['code']}|{r['brand']}"
         c = cache.get(k)
-        if c and c.get("hash") == r["hash"] and c.get("status") == "gepr√ºft":
-            r["short"], r["short_status"] = c["short"], "gepr√ºft"
+        if c and c.get("hash") == r["hash"] and c.get("status") == "geprüft":
+            r["short"], r["short_status"] = c["short"], "geprüft"
         elif r["hash"] in manual:
-            r["short"], r["short_status"] = manual[r["hash"]], "KI, ungepr√ºft"
+            r["short"], r["short_status"] = manual[r["hash"]], "KI, ungeprüft"
             cache[k] = {"hash": r["hash"], "short": r["short"], "status": r["short_status"]}
         elif c and c.get("hash") == r["hash"] and c.get("status") != "automatisch":
-            r["short"], r["short_status"] = c["short"], c.get("status", "ungepr√ºft")
+            r["short"], r["short_status"] = c["short"], c.get("status", "ungeprüft")
         elif r["group"] and r["specific"]:
             todo.append(r)
         else:
@@ -295,7 +295,7 @@ def apply_short_texts(rows):
     for r in todo:
         k = f"{r['code']}|{r['brand']}"
         if k in ai:
-            r["short"], r["short_status"] = ai[k], "KI, ungepr√ºft"
+            r["short"], r["short_status"] = ai[k], "KI, ungeprüft"
         else:
             r["short"], r["short_status"] = heuristic_short(r["text"], r["brand"]), "automatisch"
         cache[k] = {"hash": r["hash"], "short": r["short"], "status": r["short_status"]}
@@ -335,10 +335,10 @@ def write_xlsx(rows, changes, meta):
     wb = Workbook()
     head_fill = PatternFill("solid", fgColor="1F4E5F")
     head_font = Font(bold=True, color="FFFFFF")
-    cols = [("Pr√§parat", 18), ("Indikationscode", 15), ("Kurztext Indikation", 60),
-            ("Wirkstoff", 24), ("Gruppe", 30), ("ATC", 10), ("G√ºltig ab", 11),
+    cols = [("Präparat", 18), ("Indikationscode", 15), ("Kurztext Indikation", 60),
+            ("Wirkstoff", 24), ("Gruppe", 30), ("ATC", 10), ("Gültig ab", 11),
             ("Befristet bis", 12), ("Kurztext-Status", 14), ("Packungen", 40),
-            ("Limitationstext (vollst√§ndig, BAG)", 90)]
+            ("Limitationstext (vollständig, BAG)", 90)]
 
     def sheet(ws, data):
         ws.append([c for c, _ in cols])
@@ -359,13 +359,13 @@ def write_xlsx(rows, changes, meta):
 
     onko = [r for r in rows if r["group"] and r["specific"]]
     ws = wb.active
-    ws.title = "Onko-H√§ma"
+    ws.title = "Onko-Häma"
     sheet(ws, onko)
-    sheet(wb.create_sheet("Alle Pr√§parate mit Code"), [r for r in rows if r["specific"]])
+    sheet(wb.create_sheet("Alle Präparate mit Code"), [r for r in rows if r["specific"]])
 
-    ws = wb.create_sheet("√Ñnderungen")
-    ws.append(["Art", "Pr√§parat", "Indikationscode", "Kurztext"])
-    for kind, label in (("added", "neu"), ("changed", "ge√§ndert"), ("removed", "entfernt")):
+    ws = wb.create_sheet("Änderungen")
+    ws.append(["Art", "Präparat", "Indikationscode", "Kurztext"])
+    for kind, label in (("added", "neu"), ("changed", "geändert"), ("removed", "entfernt")):
         for r in changes.get(kind, []):
             ws.append([label, r["brand"], r["code"], r["short"]])
     for i, w in enumerate((10, 18, 15, 80), 1):
@@ -373,14 +373,14 @@ def write_xlsx(rows, changes, meta):
 
     ws = wb.create_sheet("Info")
     for line in [
-        "Indikationscodes Onkologie / H√§matologie ‚Äì Arbeitshilfe",
-        f"Stand der Daten: BAG Spezialit√§tenliste, abgerufen am {ch_date(meta['built'])}",
-        "Quelle: BAG ePL, FHIR-Export (√∂ffentlich, CC0). Verbindlich ist allein die "
-        "Spezialit√§tenliste unter sl.bag.admin.ch.",
-        "Kurztexte sind gek√ºrzte Fassungen des BAG-Limitationstexts. Status 'automatisch' "
-        "oder 'KI, ungepr√ºft' = noch nicht von Fachperson gepr√ºft.",
+        "Indikationscodes Onkologie / Hämatologie – Arbeitshilfe",
+        f"Stand der Daten: BAG Spezialitätenliste, abgerufen am {ch_date(meta['built'])}",
+        "Quelle: BAG ePL, FHIR-Export (öffentlich, CC0). Verbindlich ist allein die "
+        "Spezialitätenliste unter sl.bag.admin.ch.",
+        "Kurztexte sind gekürzte Fassungen des BAG-Limitationstexts. Status 'automatisch' "
+        "oder 'KI, ungeprüft' = noch nicht von Fachperson geprüft.",
         "Codes mit .XX / .RB sind allgemeine Hinweise ohne eigenen Indikationscode und nur "
-        "im Blatt 'Alle' bzw. auf der Webseite aufgef√ºhrt.",
+        "im Blatt 'Alle' bzw. auf der Webseite aufgeführt.",
     ]:
         ws.append([line])
     ws.column_dimensions["A"].width = 120

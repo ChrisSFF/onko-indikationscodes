@@ -1,0 +1,3107 @@
+{
+ "17079.01|MabThera": {
+  "hash": "6824d0a723",
+  "short": "Hämatologie: CD20+ Non-Hodgkin-Lymphome / CLL gemäss Limitation (u.a. FL 1L mit CVP)",
+  "status": "KI, ungeprüft"
+ },
+ "17079.02|MabThera": {
+  "hash": "aa0926462d",
+  "short": "Autoimmunerkrankungen",
+  "status": "automatisch"
+ },
+ "17079.03|MabThera": {
+  "hash": "5d8afb8592",
+  "short": "DLBCL rezidiviert/refraktär, Kombination mit Polivy + Bendamustin",
+  "status": "KI, ungeprüft"
+ },
+ "17354.01|Herceptin": {
+  "hash": "8b9492e14f",
+  "short": "In Kombination mit Pertuzumab (PERJETA) als adjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "17354.02|Herceptin": {
+  "hash": "5cf322a2aa",
+  "short": "Weitere zugelassene Indikationen (ohne Preismodell)",
+  "status": "KI, ungeprüft"
+ },
+ "17807.01|Aranesp": {
+  "hash": "d490e73eb5",
+  "short": "Renale Anämie bei Niereninsuffizienz",
+  "status": "KI, ungeprüft"
+ },
+ "17807.02|Aranesp": {
+  "hash": "7db3aec898",
+  "short": "Chemotherapie-induzierte Anämie bei Tumorpatienten (Hb < 10.5 g/dl)",
+  "status": "KI, ungeprüft"
+ },
+ "17948.01|Somatuline Autogel": {
+  "hash": "f157a52361",
+  "short": "Akromegalie; Symptome neuroendokriner Tumoren (NET); GEP-NET",
+  "status": "KI, ungeprüft"
+ },
+ "18082.01|Avastin": {
+  "hash": "3e0fa7cf01",
+  "short": "Kolorektalkarzinom metastasiert, 1L, Kombination mit 5-FU/FS, FOLFIRI oder XELOX",
+  "status": "KI, ungeprüft"
+ },
+ "18082.02|Avastin": {
+  "hash": "c92781be97",
+  "short": "NSCLC nicht-plattenepithelial, 1L fortgeschritten/metastasiert/rezidivierend",
+  "status": "KI, ungeprüft"
+ },
+ "18082.03|Avastin": {
+  "hash": "3c2471f500",
+  "short": "Nierenzellkarzinom 1L nach Nephrektomie, fortgeschritten/metastasiert, Kombination mit Interferon alfa-2a",
+  "status": "KI, ungeprüft"
+ },
+ "18082.04|Avastin": {
+  "hash": "043ce8bc71",
+  "short": "Mammakarzinom HER2-negativ, 1L lokal rezidivierend/metastasiert, Kombination mit Paclitaxel",
+  "status": "KI, ungeprüft"
+ },
+ "18082.05|Avastin": {
+  "hash": "d1d963fb38",
+  "short": "Ovarialkarzinom FIGO III–IV, nicht vorbehandelt, nicht vollständig reseziert",
+  "status": "KI, ungeprüft"
+ },
+ "18082.06|Avastin": {
+  "hash": "5f631ef7d2",
+  "short": "Zervixkarzinom persistierend/rezidivierend/metastasiert, Kombination mit Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "18082.07|Avastin": {
+  "hash": "78908adb2f",
+  "short": "Glioblastom rezidivierend (WHO IV), 2L-Monotherapie nach Temozolomid",
+  "status": "KI, ungeprüft"
+ },
+ "18082.08|Avastin": {
+  "hash": "c62eb45784",
+  "short": "HCC inoperabel/metastasiert, Kombination mit Atezolizumab (Tecentriq)",
+  "status": "KI, ungeprüft"
+ },
+ "18082.09|Avastin": {
+  "hash": "4642d35a7d",
+  "short": "Ovarialkarzinom, Erhaltung nach 1L-Chemotherapie, Kombination mit Olaparib (Lynparza)",
+  "status": "KI, ungeprüft"
+ },
+ "18229.01|Pamorelin LA": {
+  "hash": "7e0461c9a3",
+  "short": "Prostatakarzinom hormonabhängig, fortgeschritten bzw. lokalisiert Hochrisiko mit Radiotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "18384.02|Vidaza": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "18541.01|Revlimid": {
+  "hash": "3086f0128e",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "18541.02|Revlimid": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "18541.03|Revlimid": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "18541.04|Revlimid": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "18541.08|Revlimid": {
+  "hash": "4d2c430585",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "18541.09|Revlimid": {
+  "hash": "94dd37e262",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "18541.11|Revlimid": {
+  "hash": "34f7b0fe57",
+  "short": "DLBCL rezidiviert/refraktär, Kombination mit Tafasitamab (Minjuvi)",
+  "status": "KI, ungeprüft"
+ },
+ "18541.12|Revlimid": {
+  "hash": "bd00f9ee43",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "18541.13|Revlimid": {
+  "hash": "7bbce9bb3c",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "18541.14|Revlimid": {
+  "hash": "dcef12dbef",
+  "short": "In Kombination mit Isatuximab, Bortezomib und Dexamethason (IsaVRd)",
+  "status": "automatisch"
+ },
+ "18541.15|Revlimid": {
+  "hash": "69beab7375",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "18541.16|Revlimid": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "19016.01|Soliris": {
+  "hash": "bf6896bc25",
+  "short": "Paroxysmale nächtliche Hämoglobinurie (PNH), Erwachsene und Kinder",
+  "status": "KI, ungeprüft"
+ },
+ "19016.02|Soliris": {
+  "hash": "5e7bd79723",
+  "short": "Atypisches hämolytisch-urämisches Syndrom (aHUS), Erwachsene und Kinder",
+  "status": "KI, ungeprüft"
+ },
+ "19225.01|Revolade": {
+  "hash": "9067f88be5",
+  "short": "Schwere aplastische Anämie (SAA) – 1L",
+  "status": "automatisch"
+ },
+ "19225.02|Revolade": {
+  "hash": "041372bec0",
+  "short": "Schwere aplastische Anämie (SAA) – 2L+",
+  "status": "automatisch"
+ },
+ "19225.03|Revolade": {
+  "hash": "2300b3db08",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Erwachsene",
+  "status": "automatisch"
+ },
+ "19225.04|Revolade": {
+  "hash": "cbe828aab8",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
+  "status": "automatisch"
+ },
+ "19436.01|Jevtana": {
+  "hash": "d0e62f3a8f",
+  "short": "mCRPC nach Docetaxel, Kombination mit Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "19520.01|Yervoy": {
+  "hash": "01b305b8d1",
+  "short": "Melanom Monotherapie",
+  "status": "automatisch"
+ },
+ "19520.02|Yervoy": {
+  "hash": "8e9d70cca6",
+  "short": "Melanom Kombinationstherapie",
+  "status": "automatisch"
+ },
+ "19520.03|Yervoy": {
+  "hash": "44d88ea519",
+  "short": "Nierenzellkarzinom (RCC)",
+  "status": "automatisch"
+ },
+ "19520.04|Yervoy": {
+  "hash": "8b0c7bcfcc",
+  "short": "Kolorektales Karzinom (CRC) mit dMMR/MSI-H",
+  "status": "automatisch"
+ },
+ "19520.05|Yervoy": {
+  "hash": "7b7e115dab",
+  "short": "Ösophageales Plattenepithelkarzinom (OSCC)",
+  "status": "automatisch"
+ },
+ "19520.06|Yervoy": {
+  "hash": "680a00d9e3",
+  "short": "Malignes pleurales Mesotheliom (MPM)",
+  "status": "automatisch"
+ },
+ "19520.07|Yervoy": {
+  "hash": "b39f845d28",
+  "short": "Nicht-kleinzelliges Lungenkarzinom (NSCLC)",
+  "status": "automatisch"
+ },
+ "19608.01|Zytiga": {
+  "hash": "48b0fc86e4",
+  "short": "mCRPC asymptomatisch/leicht symptomatisch, Kombination mit LHRH-Agonist + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "19786.02|Zelboraf": {
+  "hash": "586deefc22",
+  "short": "Melanom inoperabel/metastasiert BRAF-V600, Kombination mit Cotellic",
+  "status": "KI, ungeprüft"
+ },
+ "19972.01|Perjeta": {
+  "hash": "f08ab069e1",
+  "short": "Metastasiertes Mammakarzinom",
+  "status": "automatisch"
+ },
+ "19972.02|Perjeta": {
+  "hash": "58d40c7364",
+  "short": "Neoadjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "19972.03|Perjeta": {
+  "hash": "06b7837aa6",
+  "short": "Mammakarzinom HER2+ Frühstadium, adjuvant, Kombination mit Trastuzumab + Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "19989.01|Adcetris": {
+  "hash": "0d721f8de7",
+  "short": "Hodgkin-Lymphom Stadium IV, unbehandelt, Kombination mit Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "19989.02|Adcetris": {
+  "hash": "80ad323819",
+  "short": "Hodgkin-Lymphom rezidiviert/refraktär, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "19989.03|Adcetris": {
+  "hash": "b85c0f963e",
+  "short": "PTCL CD30+, unbehandelt, Kombination mit Chemotherapie (CHP)",
+  "status": "KI, ungeprüft"
+ },
+ "19989.04|Adcetris": {
+  "hash": "045c89d3e0",
+  "short": "sALCL rezidiviert/refraktär, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "19989.05|Adcetris": {
+  "hash": "8cadbd2f49",
+  "short": "Kutane T-Zell-Lymphome (CTCL) CD30+, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "19990.02|Dacogen": {
+  "hash": "1953bdca7a",
+  "short": "AML, nicht geeignet für intensive Chemotherapie/SZT",
+  "status": "KI, ungeprüft"
+ },
+ "20050.01|Stivarga": {
+  "hash": "8c4320754f",
+  "short": "Indikationsübergreifende Limitatio (CRC, GIST und HCC)",
+  "status": "automatisch"
+ },
+ "20084.01|Kadcyla": {
+  "hash": "6e0957687a",
+  "short": "Metastasierter Brustkrebs",
+  "status": "automatisch"
+ },
+ "20084.02|Kadcyla": {
+  "hash": "948052ba83",
+  "short": "Mammakarzinom HER2+ Frühstadium, adjuvant bei Resttumor nach neoadjuvanter Therapie",
+  "status": "KI, ungeprüft"
+ },
+ "20115.01|Tafinlar": {
+  "hash": "6dc7ecdb62",
+  "short": "Melanom inoperabel/metastasiert BRAF-V600, Kombination Dabrafenib + Trametinib",
+  "status": "KI, ungeprüft"
+ },
+ "20115.02|Tafinlar": {
+  "hash": "0d197ba08b",
+  "short": "Melanom BRAF-V600 adjuvant nach Resektion, Kombination Dabrafenib + Trametinib",
+  "status": "KI, ungeprüft"
+ },
+ "20115.03|Tafinlar": {
+  "hash": "ca062cb88d",
+  "short": "NSCLC metastasiert BRAF-V600, Kombination Dabrafenib + Trametinib",
+  "status": "KI, ungeprüft"
+ },
+ "20221.01|Imnovid": {
+  "hash": "e0b8b043a2",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "20221.03|Imnovid": {
+  "hash": "6b09df3b9c",
+  "short": "In Kombination mit Daratumumab und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "20221.04|Imnovid": {
+  "hash": "5319092874",
+  "short": "In Kombination mit Isatuximab und Dexamethason",
+  "status": "automatisch"
+ },
+ "20248.01|Gazyvaro": {
+  "hash": "a35d201ce2",
+  "short": "Chronische lymphatische Leukämie (CLL)",
+  "status": "automatisch"
+ },
+ "20248.02|Gazyvaro": {
+  "hash": "d0704566c9",
+  "short": "Refraktäres oder rezidiviertes follikuläres Lymphom (FL r/r)",
+  "status": "automatisch"
+ },
+ "20248.03|Gazyvaro": {
+  "hash": "c5df8391e8",
+  "short": "Bisher unbehandeltes follikuläres Lymphom (FL 1L)",
+  "status": "automatisch"
+ },
+ "20248.04|Gazyvaro": {
+  "hash": "d06f430620",
+  "short": "Lupusnephritis (LN)",
+  "status": "automatisch"
+ },
+ "20252.01|Xofigo": {
+  "hash": "5b518b83df",
+  "short": "CRPC mit symptomatischen Knochenmetastasen, ohne viszerale Metastasen",
+  "status": "KI, ungeprüft"
+ },
+ "20362.01|Ofev": {
+  "hash": "2e87b8518a",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
+ "20362.02|Ofev": {
+  "hash": "bce8bac7c0",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "20362.03|Ofev": {
+  "hash": "8a294c809b",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ },
+ "20403.01|Cyramza": {
+  "hash": "edd780e014",
+  "short": "Magen-/GEJ-Adenokarzinom fortgeschritten, 2L, Kombination mit Paclitaxel",
+  "status": "KI, ungeprüft"
+ },
+ "20403.02|Cyramza": {
+  "hash": "4c826cd3e1",
+  "short": "Kolorektalkarzinom metastasiert, 2L nach Bevacizumab/Oxaliplatin, Kombination mit FOLFIRI",
+  "status": "KI, ungeprüft"
+ },
+ "20408.01|Lenvima": {
+  "hash": "14ebdd28bf",
+  "short": "Differenziertes Schilddrüsenkarzinom, radiojod-refraktär, progredient",
+  "status": "KI, ungeprüft"
+ },
+ "20408.02|Lenvima": {
+  "hash": "a8ca0da2c7",
+  "short": "Hepatozelluläres Karzinom (HCC)",
+  "status": "automatisch"
+ },
+ "20408.03|Lenvima": {
+  "hash": "49c77c7c02",
+  "short": "2L Endometriumkarzinom (in Kombination mit Pembrolizumab)",
+  "status": "automatisch"
+ },
+ "20416.01|Keytruda": {
+  "hash": "3b81989b08",
+  "short": "1L NSCLC (Monotherapie) KN024",
+  "status": "automatisch"
+ },
+ "20416.02|Keytruda": {
+  "hash": "e73e9ced14",
+  "short": "1L nicht-plattenepitheliales NSCLC (in Kombination mit Pemetrexed und Platin-Chemotherapie) KN189",
+  "status": "automatisch"
+ },
+ "20416.03|Keytruda": {
+  "hash": "97ef5b8cea",
+  "short": "1L plattenepitheliales NSCLC (in Kombination mit Carboplatin und Paclitaxel) KN407",
+  "status": "automatisch"
+ },
+ "20416.04|Keytruda": {
+  "hash": "e396d0517d",
+  "short": "2L NSCLC (Monotherapie) KN010",
+  "status": "automatisch"
+ },
+ "20416.05|Keytruda": {
+  "hash": "5fb44da591",
+  "short": "Melanom (Monotherapie) KN006",
+  "status": "automatisch"
+ },
+ "20416.06|Keytruda": {
+  "hash": "6a75a52864",
+  "short": "Melanom adjuvant (Monotherapie) KN054",
+  "status": "automatisch"
+ },
+ "20416.07|Keytruda": {
+  "hash": "4b02c526c9",
+  "short": "Urothelkarzinom (Monotherapie) KN045",
+  "status": "automatisch"
+ },
+ "20416.08|Keytruda": {
+  "hash": "10f285b18a",
+  "short": "1L Plattenepithelkarzinom im Kopf- und Halsbereich (HNSCC) (in Kombination mit Platin- und 5-Fluorouracil (5-FU)-haltiger Chemotherapie) KN048",
+  "status": "automatisch"
+ },
+ "20416.09|Keytruda": {
+  "hash": "3c7fb9d01f",
+  "short": "Vorbehandelte Patienten mit einem Plattenepithelkarzinom im Kopf- und Halsbereich nach platinbasierter Chemotherapie (HNSCC) (Monotherapie) KN040",
+  "status": "automatisch"
+ },
+ "20416.10|Keytruda": {
+  "hash": "6d0faa5740",
+  "short": "Klassisches Hodgkin-Lymphom (Monotherapie) bei erwachsenen Patienten KN204",
+  "status": "automatisch"
+ },
+ "20416.11|Keytruda": {
+  "hash": "71fd899eb3",
+  "short": "Klassisches Hodgkin-Lymphom (Monotherapie) bei pädiatrischen Patienten KN051",
+  "status": "automatisch"
+ },
+ "20416.12|Keytruda": {
+  "hash": "b93e4856ee",
+  "short": "3L Primäres mediastinales grosszelliges B-Zell-Lymphom (rrPMBCL) (Monotherapie) KN170",
+  "status": "automatisch"
+ },
+ "20416.13|Keytruda": {
+  "hash": "17b83d3572",
+  "short": "1L metastasiertes kolorektales Karzinom (CRC) mit hoher Mikrosatelliteninstabilität (MSI-H) (Monotherapie) KN177",
+  "status": "automatisch"
+ },
+ "20416.14|Keytruda": {
+  "hash": "0c387fd762",
+  "short": "2L nicht resezierbares metastasiertes kolorektales Karzinom (CRC) mit hoher Mikrosatelliteninstabilität (MSI-H) (Monotherapie) KN164",
+  "status": "automatisch"
+ },
+ "20416.15|Keytruda": {
+  "hash": "1d9bb229d7",
+  "short": "2L Endometriumkarzinom, Magenkarzinom, Dünndarmkarzinom oder Gallengangskarzinom mit hoher Mikrosatelliteninstabilität (MSI-H) (Monotherapie) KN158",
+  "status": "automatisch"
+ },
+ "20416.16|Keytruda": {
+  "hash": "7ebb8141ce",
+  "short": "1L Persistierendes, rezidivierendes oder metastasiertes Zervixkarzinom (in Kombination mit Platin-Chemotherapie und Paclitaxel, mit oder ohne Bevacizumab) KN826",
+  "status": "automatisch"
+ },
+ "20416.17|Keytruda": {
+  "hash": "1be3096359",
+  "short": "Lokal rezidiverendes, nicht resezierbares oder metastasiertes triple-negatives Mammakarzinom (in Kombination mit Chemotherapie) KN355",
+  "status": "automatisch"
+ },
+ "20416.18|Keytruda": {
+  "hash": "ec661205f6",
+  "short": "1L fortgeschrittenes Nierenzellkarzinom (RCC) (in Kombination mit Lenvatinib) KN581",
+  "status": "automatisch"
+ },
+ "20416.19|Keytruda": {
+  "hash": "ed5f4b2c96",
+  "short": "2L Endometriumkarzinom (in Kombination mit Lenvatinib) (KN775)",
+  "status": "automatisch"
+ },
+ "20416.20|Keytruda": {
+  "hash": "d6a0bb9728",
+  "short": "1L HER2+ Magenkarzinom oder Karzinom des gastroösophagealen Übergangs (GEJC) (in Kombination mit Trastuzumbab, Fluoropyrimidin und platinbasierter Chemotherapie) KN811",
+  "status": "automatisch"
+ },
+ "20416.21|Keytruda": {
+  "hash": "c782e1d6cd",
+  "short": "1L HER2- negatives Magenkarzinom oder Karzinom des gastroösophagealen Übergangs (GEJC) (in Kombination mit Fluoropyrimidin und platinbasierter Chemotherapie KN859",
+  "status": "automatisch"
+ },
+ "20416.22|Keytruda": {
+  "hash": "8fe02eb7a9",
+  "short": "Biliäres Karzinom KN966",
+  "status": "automatisch"
+ },
+ "20416.23|Keytruda": {
+  "hash": "f21f8f8e87",
+  "short": "Triple-negatives Mammakarzinom (TNBC) neoadjuvant/adjuvant KN522",
+  "status": "automatisch"
+ },
+ "20416.24|Keytruda": {
+  "hash": "0e85377cd1",
+  "short": "Zervixkarzinom im FIGO 2014 Stadium III-IVA KNA18",
+  "status": "automatisch"
+ },
+ "20416.25|Keytruda": {
+  "hash": "81a1eadb61",
+  "short": "Nierenzellkarzinom (RCC) adjuvant KN564",
+  "status": "automatisch"
+ },
+ "20416.26|Keytruda": {
+  "hash": "d89c5db6e5",
+  "short": "NSCLC im Frühstadium, adjuvant KN091",
+  "status": "automatisch"
+ },
+ "20417.01|Cotellic": {
+  "hash": "08de04a98b",
+  "short": "Melanom inoperabel/metastasiert BRAF-V600, Kombination mit Zelboraf",
+  "status": "KI, ungeprüft"
+ },
+ "20461.01|Opdivo": {
+  "hash": "07809ce9eb",
+  "short": "NSCLC fortgeschritten/metastasiert nach Chemotherapie, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.02|Opdivo": {
+  "hash": "989624b747",
+  "short": "Melanom fortgeschritten, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.03|Opdivo": {
+  "hash": "0d1c2e71d5",
+  "short": "Melanom fortgeschritten, Kombination mit Ipilimumab",
+  "status": "KI, ungeprüft"
+ },
+ "20461.04|Opdivo": {
+  "hash": "7aeea20407",
+  "short": "Nierenzellkarzinom fortgeschritten nach antiangiogener Therapie, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.05|Opdivo": {
+  "hash": "328ea37afa",
+  "short": "Kopf-Hals-Plattenepithelkarzinom rezidivierend/metastasiert nach Platin, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.06|Opdivo": {
+  "hash": "fd02d29e18",
+  "short": "Hodgkin-Lymphom rezidiviert/refraktär nach autologer SZT, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.07|Opdivo": {
+  "hash": "52dc7e9e96",
+  "short": "Melanom adjuvant (Stadium IIIB–IV) nach Resektion, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.08|Opdivo": {
+  "hash": "c47c846db9",
+  "short": "Kolorektalkarzinom metastasiert dMMR/MSI-H, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.09|Opdivo": {
+  "hash": "d553062f77",
+  "short": "Ösophagus-/GEJ-Karzinom adjuvant nach Resektion, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.10|Opdivo": {
+  "hash": "dbeec5701e",
+  "short": "Nierenzellkarzinom fortgeschritten, 1L (intermediär/ungünstig), Kombination mit Ipilimumab",
+  "status": "KI, ungeprüft"
+ },
+ "20461.11|Opdivo": {
+  "hash": "1f31d4602a",
+  "short": "Kolorektalkarzinom metastasiert dMMR/MSI-H, Kombination mit Ipilimumab",
+  "status": "KI, ungeprüft"
+ },
+ "20461.12|Opdivo": {
+  "hash": "eff0053179",
+  "short": "Muskelinvasives Urothelkarzinom adjuvant (PD-L1 ≥ 1 %), Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20461.13|Opdivo": {
+  "hash": "4426508095",
+  "short": "Ösophageales Plattenepithelkarzinom, 1L, Kombination mit Fluoropyrimidin/Cisplatin",
+  "status": "KI, ungeprüft"
+ },
+ "20461.14|Opdivo": {
+  "hash": "c4a79f960e",
+  "short": "Ösophageales Plattenepithelkarzinom, 1L, Kombination mit Ipilimumab",
+  "status": "KI, ungeprüft"
+ },
+ "20461.15|Opdivo": {
+  "hash": "15563a6c63",
+  "short": "Pleuramesotheliom, 1L, Kombination mit Ipilimumab",
+  "status": "KI, ungeprüft"
+ },
+ "20461.16|Opdivo": {
+  "hash": "97d3345b6b",
+  "short": "Adenokarzinom Magen/GEJ/Ösophagus, 1L, Kombination mit Oxaliplatin/Fluoropyrimidin",
+  "status": "KI, ungeprüft"
+ },
+ "20461.17|Opdivo": {
+  "hash": "34d658751c",
+  "short": "NSCLC metastasiert, 1L, Kombination mit Ipilimumab + 2 Zyklen Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
+ "20461.18|Opdivo": {
+  "hash": "f1fdb8111d",
+  "short": "Nierenzellkarzinom, 1L, Kombination mit Cabozantinib",
+  "status": "KI, ungeprüft"
+ },
+ "20481.02|Kyprolis": {
+  "hash": "b9d8f30373",
+  "short": "In Kombination mit Daratumumab und Dexamethason (KDd)",
+  "status": "automatisch"
+ },
+ "20481.03|Kyprolis": {
+  "hash": "f2716220dc",
+  "short": "In Kombination mit Daratumumab und Dexamethason (KDd)",
+  "status": "automatisch"
+ },
+ "20481.04|Kyprolis": {
+  "hash": "863cfe62fe",
+  "short": "In Kombination mit Dexamethason (Kd)",
+  "status": "automatisch"
+ },
+ "20481.05|Kyprolis": {
+  "hash": "e4e381240f",
+  "short": "In Kombination mit Dexamethason (Kd)",
+  "status": "automatisch"
+ },
+ "20481.06|Kyprolis": {
+  "hash": "7ae133b2b7",
+  "short": "In Kombination mit Lenalidomid und Dexamethason (KRd)",
+  "status": "automatisch"
+ },
+ "20481.07|Kyprolis": {
+  "hash": "412ef416d2",
+  "short": "In Kombination mit Isatuximab und Dexamethason (IsaKd)",
+  "status": "automatisch"
+ },
+ "20484.01|Mekinist": {
+  "hash": "c6f0b0879c",
+  "short": "Melanom inoperabel/metastasiert BRAF-V600, Kombination Dabrafenib + Trametinib",
+  "status": "KI, ungeprüft"
+ },
+ "20484.02|Mekinist": {
+  "hash": "541d7002e8",
+  "short": "Melanom BRAF-V600 adjuvant nach Resektion, Kombination Dabrafenib + Trametinib",
+  "status": "KI, ungeprüft"
+ },
+ "20484.03|Mekinist": {
+  "hash": "eaf994d63f",
+  "short": "NSCLC metastasiert BRAF-V600, Kombination Dabrafenib + Trametinib",
+  "status": "KI, ungeprüft"
+ },
+ "20518.01|Tagrisso": {
+  "hash": "8912eccd47",
+  "short": "NSCLC EGFR-mutiert, 1L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20518.02|Tagrisso": {
+  "hash": "cddd80fba6",
+  "short": "NSCLC mit EGFR-T790M-Mutation, 2L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20518.03|Tagrisso": {
+  "hash": "e7d6852f96",
+  "short": "1L NSCLC (Kombinationstherapie)",
+  "status": "automatisch"
+ },
+ "20544.01|Empliciti": {
+  "hash": "157d8a48a5",
+  "short": "In Kombination mit Lenalidomid und Dexamethason",
+  "status": "automatisch"
+ },
+ "20544.02|Empliciti": {
+  "hash": "b7a53e6ed4",
+  "short": "In Kombination mit Pomalidomid und Dexamethason",
+  "status": "automatisch"
+ },
+ "20588.01|Ibrance": {
+  "hash": "312e3b5083",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 1L, Kombination mit Aromatasehemmer",
+  "status": "KI, ungeprüft"
+ },
+ "20588.02|Ibrance": {
+  "hash": "95bc25a35f",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 1L bei frühem Rezidiv, Kombination mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "20588.03|Ibrance": {
+  "hash": "b4c278ebb8",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 2L, Kombination mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "20589.01|Darzalex": {
+  "hash": "cd3f3a7b96",
+  "short": "Multiples Myelom 4L+, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20589.02|Darzalex": {
+  "hash": "2092f1b29d",
+  "short": "Multiples Myelom 2L+, Kombination mit Lenalidomid + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "20589.03|Darzalex": {
+  "hash": "0ed76a59ce",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), Kombination mit VMP",
+  "status": "KI, ungeprüft"
+ },
+ "20589.05|Darzalex": {
+  "hash": "dfee094f37",
+  "short": "Multiples Myelom 2L+, Kombination mit Bortezomib + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "20589.07|Darzalex": {
+  "hash": "e7dfe77a2e",
+  "short": "Multiples Myelom 2L+, Kombination mit Carfilzomib + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "20589.08|Darzalex": {
+  "hash": "f53e4e405e",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), Kombination mit Lenalidomid + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "20593.01|Ninlaro": {
+  "hash": "0eb8a9de1e",
+  "short": "Multiples Myelom 2L+, Kombination mit Lenalidomid + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "20641.01|Tecentriq": {
+  "hash": "a0ed376e88",
+  "short": "NSCLC fortgeschritten/metastasiert nach Chemotherapie, 2L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20641.02|Tecentriq": {
+  "hash": "3c6238270d",
+  "short": "Kleinzelliges Lungenkarzinom ES-SCLC, 1L, Kombination mit Carboplatin + Etoposid",
+  "status": "KI, ungeprüft"
+ },
+ "20641.03|Tecentriq": {
+  "hash": "994e3f22ae",
+  "short": "HCC inoperabel/metastasiert, 1L, Kombination mit Bevacizumab",
+  "status": "KI, ungeprüft"
+ },
+ "20641.04|Tecentriq": {
+  "hash": "7166063cda",
+  "short": "NSCLC im Frühstadium, adjuvant",
+  "status": "automatisch"
+ },
+ "20641.05|Tecentriq": {
+  "hash": "342252109f",
+  "short": "1L nicht-plattenepitheliales NSCLC (in Kombination mit Nab-Paclitaxel und Carboplatin)",
+  "status": "automatisch"
+ },
+ "20641.06|Tecentriq": {
+  "hash": "5eebecc0da",
+  "short": "1L nicht-plattenepitheliales NSCLC (in Kombination mit Paclitaxel und Carboplatin)",
+  "status": "automatisch"
+ },
+ "20642.01|Lonsurf": {
+  "hash": "9f87f4d9c4",
+  "short": "Kolorektales Karzinom (KRK) – Monotherapie",
+  "status": "automatisch"
+ },
+ "20642.02|Lonsurf": {
+  "hash": "5e2e3158c6",
+  "short": "Magenkarzinom",
+  "status": "automatisch"
+ },
+ "20642.03|Lonsurf": {
+  "hash": "1ed1625039",
+  "short": "Kolorektales Karzinom (KRK) – Kombination mit Bevacizumab",
+  "status": "automatisch"
+ },
+ "20662.01|Blincyto": {
+  "hash": "c67a47171d",
+  "short": "B-Vorläufer-ALL Ph−, rezidivierend/refraktär, Erwachsene",
+  "status": "KI, ungeprüft"
+ },
+ "20662.02|Blincyto": {
+  "hash": "bc76ffb25d",
+  "short": "B-Vorläufer-ALL Ph− in kompletter Remission mit MRD ≥ 0.1 %",
+  "status": "KI, ungeprüft"
+ },
+ "20662.03|Blincyto": {
+  "hash": "3966edb45f",
+  "short": "B-Vorläufer-ALL Ph+, rezidivierend/refraktär, Erwachsene",
+  "status": "KI, ungeprüft"
+ },
+ "20662.04|Blincyto": {
+  "hash": "8c45c008ff",
+  "short": "B-Vorläufer-ALL Ph−/CD19+, Konsolidierung (Pädiatrie)",
+  "status": "KI, ungeprüft"
+ },
+ "20679.01|Kisplyx": {
+  "hash": "bfd7449e04",
+  "short": "1L fortgeschrittenes (nicht resezierbares oder metastasiertes) Nierenzellkarzinom mit intermediärem/ungünstigem Risikoprofil von erwachsenen Patienten",
+  "status": "automatisch"
+ },
+ "20682.01|Kisqali": {
+  "hash": "148a881c52",
+  "short": "Fortgeschrittener oder metastasierter Brustkrebs in Kombination mit AI 1L",
+  "status": "automatisch"
+ },
+ "20682.02|Kisqali": {
+  "hash": "143cf988b5",
+  "short": "Fortgeschrittener oder metastasierter Brustkrebs in Kombination mit Fulvestrant 1L endokrin sensitiv",
+  "status": "automatisch"
+ },
+ "20682.03|Kisqali": {
+  "hash": "1f58013129",
+  "short": "Fortgeschrittener oder metastasierter Brustkrebs in Kombination mit Fulvestrant 1L endokrin resistent",
+  "status": "automatisch"
+ },
+ "20682.04|Kisqali": {
+  "hash": "7c10840821",
+  "short": "Fortgeschrittener oder metastasierter Brustkrebs in Kombination mit Fulvestrant 2L",
+  "status": "automatisch"
+ },
+ "20682.05|Kisqali": {
+  "hash": "e1143aa912",
+  "short": "Früher Brustkrebs (adjuvant)",
+  "status": "automatisch"
+ },
+ "20696.01|Besponsa": {
+  "hash": "cb2d741144",
+  "short": "B-Vorläufer-ALL CD22+, rezidivierend/refraktär, Erwachsene",
+  "status": "KI, ungeprüft"
+ },
+ "20708.01|Cabometyx": {
+  "hash": "0868b6c24e",
+  "short": "Nierenzellkarzinom 2L+ nach VEGF-Therapie, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "20708.02|Cabometyx": {
+  "hash": "6d20fdef34",
+  "short": "Nierenzellkarzinom 1L (intermediär/ungünstig), Kombination mit Nivolumab",
+  "status": "KI, ungeprüft"
+ },
+ "20764.01|Venclyxto": {
+  "hash": "30668c1e82",
+  "short": "Chronisch lymphatische Leukämie (Monotherapie) bei Patienten mit del17p/TP53mut und nach Therapieversagen unter einem BCRi",
+  "status": "automatisch"
+ },
+ "20764.02|Venclyxto": {
+  "hash": "6a3703e24b",
+  "short": "Chronisch lymphatische Leukämie in Kombination mit Rituximab",
+  "status": "automatisch"
+ },
+ "20764.03|Venclyxto": {
+  "hash": "d0888d4690",
+  "short": "Akute myeolische Leukämie in Kombination mit Azacitidin oder Decitabin",
+  "status": "automatisch"
+ },
+ "20764.04|Venclyxto": {
+  "hash": "548d278df4",
+  "short": "Chronisch lymphatische Leukämie in Kombination mit Obinutuzumab",
+  "status": "automatisch"
+ },
+ "20791.01|Imfinzi": {
+  "hash": "d330e18536",
+  "short": "Nicht-kleinzelliges Lungenkarzinom (NSCLC)",
+  "status": "automatisch"
+ },
+ "20791.02|Imfinzi": {
+  "hash": "af584bd229",
+  "short": "Kleinzelliges Lungenkarzinom ES-SCLC, 1L, Kombination mit Etoposid + Carbo-/Cisplatin",
+  "status": "KI, ungeprüft"
+ },
+ "20791.03|Imfinzi": {
+  "hash": "6890078b01",
+  "short": "Biliäres Karzinom (BTC)",
+  "status": "automatisch"
+ },
+ "20791.04|Imfinzi": {
+  "hash": "7741ceb734",
+  "short": "Hepatozelluläres Karzinom (HCC)",
+  "status": "automatisch"
+ },
+ "20791.05|Imfinzi": {
+  "hash": "57245662e5",
+  "short": "Blasenkrebs (MIBC)",
+  "status": "automatisch"
+ },
+ "20791.06|Imfinzi": {
+  "hash": "4c0a277a33",
+  "short": "Kleinzelliges Lungenkarzinom (LS-SCLC)",
+  "status": "automatisch"
+ },
+ "20815.01|Truxima": {
+  "hash": "91931d5e35",
+  "short": "Hämatologie: CD20+ Non-Hodgkin-Lymphome / CLL gemäss Limitation (u.a. FL 1L mit CVP)",
+  "status": "KI, ungeprüft"
+ },
+ "20815.02|Truxima": {
+  "hash": "a7cc08eb1a",
+  "short": "Autoimmunerkrankungen",
+  "status": "automatisch"
+ },
+ "20815.03|Truxima": {
+  "hash": "24c5f98809",
+  "short": "DLBCL rezidiviert/refraktär, Kombination mit Polivy + Bendamustin",
+  "status": "KI, ungeprüft"
+ },
+ "20818.01|Hemlibra": {
+  "hash": "02f3130118",
+  "short": "Patienten mit Hämophilie A mit Hemmkörpern",
+  "status": "automatisch"
+ },
+ "20818.02|Hemlibra": {
+  "hash": "a21f1f233f",
+  "short": "Patienten mit schwerer Hämophilie A ohne Hemmkörper",
+  "status": "automatisch"
+ },
+ "20818.03|Hemlibra": {
+  "hash": "5ca526c117",
+  "short": "Patienten mit moderater Hämophilie A ohne Hemmkörper bis zum vollendeten 20. Altersjahr",
+  "status": "automatisch"
+ },
+ "20818.04|Hemlibra": {
+  "hash": "b3e24071f6",
+  "short": "Patienten mit moderater Hämophilie A ohne Hemmkörper ab dem Alter von 21 Jahren",
+  "status": "automatisch"
+ },
+ "20820.01|Rixathon": {
+  "hash": "92b1e08ee0",
+  "short": "Hämatologie: CD20+ Non-Hodgkin-Lymphome / CLL gemäss Limitation (u.a. FL 1L mit CVP)",
+  "status": "KI, ungeprüft"
+ },
+ "20820.02|Rixathon": {
+  "hash": "f3ba7d8192",
+  "short": "Autoimmunerkrankungen",
+  "status": "automatisch"
+ },
+ "20820.03|Rixathon": {
+  "hash": "21469d1494",
+  "short": "DLBCL rezidiviert/refraktär, Kombination mit Polivy + Bendamustin",
+  "status": "KI, ungeprüft"
+ },
+ "20839.01|Verzenios": {
+  "hash": "ca51ef0673",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 1L, Kombination mit Aromatasehemmer",
+  "status": "KI, ungeprüft"
+ },
+ "20839.02|Verzenios": {
+  "hash": "221e351f72",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 1L bei frühem Rezidiv, Kombination mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "20839.03|Verzenios": {
+  "hash": "76a4f3c3f0",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 2L, Kombination mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "20839.04|Verzenios": {
+  "hash": "b5ab7059ab",
+  "short": "Früher Brustkrebs (adjuvant)",
+  "status": "automatisch"
+ },
+ "20852.01|Lynparza": {
+  "hash": "5db58d3d65",
+  "short": "Ovarialkarzinom nach Erstlinienchemotherapie Monotherapie",
+  "status": "automatisch"
+ },
+ "20852.02|Lynparza": {
+  "hash": "cb7b7616e9",
+  "short": "Ovarialkarzinom nach Erstlinienchemotherapie Kombinationstherapie mit Bevacizumab",
+  "status": "automatisch"
+ },
+ "20852.03|Lynparza": {
+  "hash": "3ab034c109",
+  "short": "Ovarialkarzinom mit platin-sensitivem Rezidiv",
+  "status": "automatisch"
+ },
+ "20852.04|Lynparza": {
+  "hash": "c425ce14c0",
+  "short": "Frühes Hochrisiko-Mammakarzinom",
+  "status": "automatisch"
+ },
+ "20852.05|Lynparza": {
+  "hash": "2f1e401857",
+  "short": "Pankreaskarzinom nach Erstlinientherapie",
+  "status": "automatisch"
+ },
+ "20852.06|Lynparza": {
+  "hash": "c75c041960",
+  "short": "Prostatakarzinom",
+  "status": "automatisch"
+ },
+ "20874.01|Braftovi": {
+  "hash": "a39ebab6a3",
+  "short": "Melanom inoperabel/metastasiert BRAF-V600, Kombination mit Mektovi",
+  "status": "KI, ungeprüft"
+ },
+ "20875.01|Mektovi": {
+  "hash": "78382aa4b3",
+  "short": "Melanom inoperabel/metastasiert BRAF-V600, Kombination mit Braftovi",
+  "status": "KI, ungeprüft"
+ },
+ "20876.01|Azacitidin Accord": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "20876.02|Azacitidin Accord": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "20901.01|Erleada": {
+  "hash": "7a295fc1cf",
+  "short": "mHSPC, Kombination mit ADT",
+  "status": "KI, ungeprüft"
+ },
+ "20923.01|Takhzyro": {
+  "hash": "6b924f1ff8",
+  "short": "In Monotherapie zur Langzeitprophylaxe von Attacken des hereditären Angioödems (HAE) vom Typ I oder Typ II bei Patienten ab 12 Jahren, die trotz on-demand",
+  "status": "automatisch"
+ },
+ "20952.01|Lorviqua": {
+  "hash": "f8c6ad3be7",
+  "short": "NSCLC ALK-positiv (einheitlicher Abrechnungspreis über Therapielinien)",
+  "status": "KI, ungeprüft"
+ },
+ "20966.01|Trazimera": {
+  "hash": "3865b1a79a",
+  "short": "In Kombination mit Pertuzumab (PERJETA) als adjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "20966.02|Trazimera": {
+  "hash": "865c7afd51",
+  "short": "Weitere zugelassene Indikationen (ohne Preismodell)",
+  "status": "KI, ungeprüft"
+ },
+ "20978.01|Talzenna": {
+  "hash": "9aac71d247",
+  "short": "Mammakarzinom HER2− fortgeschritten mit Keimbahn-BRCA-Mutation, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21000.01|Xtandi": {
+  "hash": "b9bc20e25d",
+  "short": "mCRPC asymptomatisch/mild symptomatisch, Kombination mit LHRH-Agonist",
+  "status": "KI, ungeprüft"
+ },
+ "21000.02|Xtandi": {
+  "hash": "04e8ab0911",
+  "short": "mCRPC nach Docetaxel, Kombination mit LHRH-Agonist",
+  "status": "KI, ungeprüft"
+ },
+ "21000.03|Xtandi": {
+  "hash": "e3c90d92c6",
+  "short": "mHSPC, Kombination mit ADT",
+  "status": "KI, ungeprüft"
+ },
+ "21011.01|Imbruvica": {
+  "hash": "71b7f010b5",
+  "short": "1L chronisch lymphatische Leukämie, uIGHV (CLL, Monotherapie)",
+  "status": "automatisch"
+ },
+ "21011.02|Imbruvica": {
+  "hash": "dac7ab82d4",
+  "short": "1L chronisch lymphatische Leukämie, uIGHV (CLL, Kombinationstherapie)",
+  "status": "automatisch"
+ },
+ "21011.03|Imbruvica": {
+  "hash": "beca319a93",
+  "short": "1L chronisch lymphatische Leukämie, 17p-Deletion oder TP53-Mutation (CLL, Monotherapie)",
+  "status": "automatisch"
+ },
+ "21011.04|Imbruvica": {
+  "hash": "c601f6dcd3",
+  "short": "2L+ chronisch lymphatische Leukämie (CLL, Monotherapie)",
+  "status": "automatisch"
+ },
+ "21011.05|Imbruvica": {
+  "hash": "3635431800",
+  "short": "Morbus Waldenström (MW, Monotherapie)",
+  "status": "automatisch"
+ },
+ "21011.06|Imbruvica": {
+  "hash": "1c88634e98",
+  "short": "Morbus Waldenström (MW, Kombinationstherapie) Kombinationstherapie Ibrutinib + Rituximab",
+  "status": "automatisch"
+ },
+ "21011.07|Imbruvica": {
+  "hash": "851f71f5ee",
+  "short": "Mantelzelllymphom (MCL, Monotherapie)",
+  "status": "automatisch"
+ },
+ "21018.01|Kanjinti": {
+  "hash": "28fd7e9e54",
+  "short": "In Kombination mit Pertuzumab (PERJETA) als adjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "21018.02|Kanjinti": {
+  "hash": "852b6e4aab",
+  "short": "Weitere zugelassene Indikationen (ohne Preismodell)",
+  "status": "KI, ungeprüft"
+ },
+ "21067.01|Piqray": {
+  "hash": "8dd9dcdfe4",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten mit PIK3CA-Mutation, Kombination mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "21068.01|Nubeqa": {
+  "hash": "04cb2b7a7b",
+  "short": "mHSPC, Kombination mit ADT",
+  "status": "KI, ungeprüft"
+ },
+ "21068.02|Nubeqa": {
+  "hash": "bf9c4cd23c",
+  "short": "MHSPC in Kombination mit Docetaxel",
+  "status": "automatisch"
+ },
+ "21084.01|Mvasi": {
+  "hash": "20ffdf3d82",
+  "short": "Kolorektalkarzinom",
+  "status": "automatisch"
+ },
+ "21084.02|Mvasi": {
+  "hash": "9b1f943b03",
+  "short": "Lungenkarzinom",
+  "status": "automatisch"
+ },
+ "21084.03|Mvasi": {
+  "hash": "ef9d8094ec",
+  "short": "Nierenzellkarzinom",
+  "status": "automatisch"
+ },
+ "21084.04|Mvasi": {
+  "hash": "83404f2dd9",
+  "short": "Mammakarzinom",
+  "status": "automatisch"
+ },
+ "21084.05|Mvasi": {
+  "hash": "d011cc31c4",
+  "short": "Ovarialkarzinom",
+  "status": "automatisch"
+ },
+ "21084.06|Mvasi": {
+  "hash": "ef8dbf0c36",
+  "short": "Zervixkarzinom",
+  "status": "automatisch"
+ },
+ "21084.07|Mvasi": {
+  "hash": "464548063d",
+  "short": "Glioblastom rezidivierend (WHO IV), 2L-Monotherapie nach Temozolomid",
+  "status": "KI, ungeprüft"
+ },
+ "21084.08|Mvasi": {
+  "hash": "fb91d265b7",
+  "short": "HCC inoperabel/metastasiert, Kombination mit Atezolizumab (Tecentriq)",
+  "status": "KI, ungeprüft"
+ },
+ "21084.09|Mvasi": {
+  "hash": "43984fe569",
+  "short": "Ovarialkarzinom nach Erstlinienchemotherapie Kombinationstherapie mit Lynparza (Olaparib)",
+  "status": "automatisch"
+ },
+ "21084.10|Mvasi": {
+  "hash": "c4a1bf83c3",
+  "short": "Kolorektalkarzinom metastasiert, Kombination mit Trifluridin/Tipiracil (Lonsurf)",
+  "status": "KI, ungeprüft"
+ },
+ "21087.01|Ogivri": {
+  "hash": "b29ed8958b",
+  "short": "In Kombination mit Pertuzumab (PERJETA) als adjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "21087.02|Ogivri": {
+  "hash": "e7d9a6707b",
+  "short": "Weitere zugelassene Indikationen (ohne Preismodell)",
+  "status": "KI, ungeprüft"
+ },
+ "21090.01|Zirabev": {
+  "hash": "43ff204685",
+  "short": "Kolorektalkarzinom",
+  "status": "automatisch"
+ },
+ "21090.02|Zirabev": {
+  "hash": "b86d3a94f5",
+  "short": "Lungenkarzinom",
+  "status": "automatisch"
+ },
+ "21090.03|Zirabev": {
+  "hash": "427373643e",
+  "short": "Nierenzellkarzinom",
+  "status": "automatisch"
+ },
+ "21090.04|Zirabev": {
+  "hash": "4663f6bc7f",
+  "short": "Mammakarzinom",
+  "status": "automatisch"
+ },
+ "21090.05|Zirabev": {
+  "hash": "c0b462c318",
+  "short": "Ovarialkarzinom",
+  "status": "automatisch"
+ },
+ "21090.06|Zirabev": {
+  "hash": "3f9e13e3a3",
+  "short": "Zervixkarzinom",
+  "status": "automatisch"
+ },
+ "21090.07|Zirabev": {
+  "hash": "b0871fcd92",
+  "short": "Glioblastom rezidivierend (WHO IV), 2L-Monotherapie nach Temozolomid",
+  "status": "KI, ungeprüft"
+ },
+ "21090.08|Zirabev": {
+  "hash": "8563f1a190",
+  "short": "Ovarialkarzinom nach Erstlinienchemotherapie Kombinationstherapie mit Lynparza (Olaparib)",
+  "status": "automatisch"
+ },
+ "21090.09|Zirabev": {
+  "hash": "5f7a8c146d",
+  "short": "HCC inoperabel/metastasiert, Kombination mit Atezolizumab (Tecentriq)",
+  "status": "KI, ungeprüft"
+ },
+ "21090.10|Zirabev": {
+  "hash": "aeed858ae3",
+  "short": "Kolorektalkarzinom metastasiert, Kombination mit Trifluridin/Tipiracil (Lonsurf)",
+  "status": "KI, ungeprüft"
+ },
+ "21099.01|Sarclisa": {
+  "hash": "b30fa41af1",
+  "short": "In Kombination mit Pomalidomid und Dexamethason",
+  "status": "automatisch"
+ },
+ "21099.02|Sarclisa": {
+  "hash": "ec66262d64",
+  "short": "In Kombination mit Carfilzomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21099.03|Sarclisa": {
+  "hash": "8be975df97",
+  "short": "In Kombination mit Bortezomib, Lenalidomid und Dexamethason",
+  "status": "automatisch"
+ },
+ "21100.01|Libtayo": {
+  "hash": "ea6bb1fa85",
+  "short": "1L nicht-kleinzelliges Bronchialkarzinom (NSCLC), Monotherapie",
+  "status": "automatisch"
+ },
+ "21100.02|Libtayo": {
+  "hash": "90f16fab62",
+  "short": "Kutanes Plattenepithelkarzinom",
+  "status": "automatisch"
+ },
+ "21100.03|Libtayo": {
+  "hash": "8c6cb937d9",
+  "short": "1L nicht-plattenepitheliales NSCLC, in Kombination mit einer platinbasierten Chemotherapie",
+  "status": "automatisch"
+ },
+ "21100.04|Libtayo": {
+  "hash": "4c57e9a2f3",
+  "short": "1L plattenepitheliales NSCLC, in Kombination mit einer platinbasierten Chemotherapie",
+  "status": "automatisch"
+ },
+ "21103.01|Xospata": {
+  "hash": "20d87b7a81",
+  "short": "AML rezidiviert/refraktär mit FLT3-Mutation",
+  "status": "KI, ungeprüft"
+ },
+ "21108.01|Besremi": {
+  "hash": "362df8383c",
+  "short": "Polycythaemia vera ohne symptomatische Splenomegalie, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21109.01|Ogivri": {
+  "hash": "46adfac5bf",
+  "short": "In Kombination mit Pertuzumab (PERJETA) als adjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "21109.02|Ogivri": {
+  "hash": "e7d9a6707b",
+  "short": "Weitere zugelassene Indikationen (ohne Preismodell)",
+  "status": "KI, ungeprüft"
+ },
+ "21123.02|Azacitidin Sandoz": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "21130.01|Rubraca": {
+  "hash": "521445c1bf",
+  "short": "Ovarialkarzinom BRCA-mutiert, platinsensitiv rezidiviert, Erhaltung nach Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
+ "21150.01|Darzalex SC": {
+  "hash": "b7fc48a4a6",
+  "short": "Multiples Myelom 4L+, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21150.02|Darzalex SC": {
+  "hash": "5fda0b5f7c",
+  "short": "Multiples Myelom 2L+, Kombination mit Lenalidomid + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21150.03|Darzalex SC": {
+  "hash": "48bcdc5d23",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), Kombination mit VMP",
+  "status": "KI, ungeprüft"
+ },
+ "21150.04|Darzalex SC": {
+  "hash": "d0a566e6a4",
+  "short": "AL-Amyloidose, unbehandelt, Kombination mit Bortezomib, Cyclophosphamid, Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21150.05|Darzalex SC": {
+  "hash": "bac968fb8e",
+  "short": "Multiples Myelom 2L+, Kombination mit Bortezomib + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21150.06|Darzalex SC": {
+  "hash": "b8af0a5083",
+  "short": "Multiples Myelom 2L+, Kombination mit Pomalidomid + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21150.07|Darzalex SC": {
+  "hash": "61f9cdb49f",
+  "short": "Multiples Myelom 2L+, Kombination mit Carfilzomib + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21150.08|Darzalex SC": {
+  "hash": "c4a2e97056",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), Kombination mit Lenalidomid + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21150.09|Darzalex SC": {
+  "hash": "02792f17eb",
+  "short": "Multiples Myelom 1L, Kombination mit VRd (Bortezomib, Lenalidomid, Dexamethason)",
+  "status": "KI, ungeprüft"
+ },
+ "21150.10|Darzalex SC": {
+  "hash": "766094b0d4",
+  "short": "Multiples Myelom 1L transplantationsfähig, Induktion/Konsolidierung mit VRd",
+  "status": "KI, ungeprüft"
+ },
+ "21183.01|Rozlytrek": {
+  "hash": "bdefcce33f",
+  "short": "Solide Tumoren",
+  "status": "automatisch"
+ },
+ "21183.02|Rozlytrek": {
+  "hash": "b6daad3937",
+  "short": "Nicht-kleinzelliges Bronchialkarzinom (NSCLC)",
+  "status": "automatisch"
+ },
+ "21205.01|Alunbrig": {
+  "hash": "ce5c22bc8c",
+  "short": "NSCLC ALK-positiv lokal fortgeschritten/metastasiert, Erstlinie",
+  "status": "KI, ungeprüft"
+ },
+ "21205.01|Alunbrig Starterpackung": {
+  "hash": "ce5c22bc8c",
+  "short": "NSCLC ALK-positiv lokal fortgeschritten/metastasiert, Erstlinie",
+  "status": "KI, ungeprüft"
+ },
+ "21205.02|Alunbrig": {
+  "hash": "2c144a8b4f",
+  "short": "NSCLC ALK-positiv metastasiert, spätere Therapielinie",
+  "status": "KI, ungeprüft"
+ },
+ "21205.02|Alunbrig Starterpackung": {
+  "hash": "2c144a8b4f",
+  "short": "NSCLC ALK-positiv metastasiert, spätere Therapielinie",
+  "status": "KI, ungeprüft"
+ },
+ "21206.01|Phesgo": {
+  "hash": "1bebd72ef0",
+  "short": "Metastasiertes Mammakarzinom",
+  "status": "automatisch"
+ },
+ "21206.02|Phesgo": {
+  "hash": "e8816cf71a",
+  "short": "Neoadjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "21206.03|Phesgo": {
+  "hash": "0fc773b176",
+  "short": "Mammakarzinom HER2+ Frühstadium, adjuvant, Kombination mit Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21234.02|Azacitidin Spirig HC": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "21235.02|Azacitidin Viatris": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "21243.01|Pemetrexed-Teva liquid": {
+  "hash": "a51a2aa522",
+  "short": "NSCLC nicht-plattenepithelial, 1L, Kombination mit Cisplatin",
+  "status": "KI, ungeprüft"
+ },
+ "21243.02|Pemetrexed-Teva liquid": {
+  "hash": "e0dd5741ec",
+  "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
+ "21251.01|Pemetrexed Sandoz conc.": {
+  "hash": "da87dc0dd5",
+  "short": "NSCLC nicht-plattenepithelial, 1L, Kombination mit Cisplatin",
+  "status": "KI, ungeprüft"
+ },
+ "21251.02|Pemetrexed Sandoz conc.": {
+  "hash": "d9ed050896",
+  "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
+ "21262.02|Pemetrexed Accord liquid": {
+  "hash": "8416c5e71c",
+  "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
+ "21263.01|Pemetrexed Viatris": {
+  "hash": "62878b665b",
+  "short": "NSCLC nicht-plattenepithelial, 1L, Kombination mit Cisplatin",
+  "status": "KI, ungeprüft"
+ },
+ "21263.02|Pemetrexed Viatris": {
+  "hash": "cd41a9c070",
+  "short": "NSCLC nicht-plattenepithelial EGFR+, 1L, Kombination mit Osimertinib + Platin-Chemo",
+  "status": "KI, ungeprüft"
+ },
+ "21264.01|Bevacizumab-Teva": {
+  "hash": "20bf5ed15b",
+  "short": "Kolorektalkarzinom metastasiert, 1L, Kombination mit 5-FU/FS, FOLFIRI oder XELOX",
+  "status": "KI, ungeprüft"
+ },
+ "21264.02|Bevacizumab-Teva": {
+  "hash": "d7c7692107",
+  "short": "NSCLC nicht-plattenepithelial, 1L fortgeschritten/metastasiert/rezidivierend",
+  "status": "KI, ungeprüft"
+ },
+ "21264.03|Bevacizumab-Teva": {
+  "hash": "2b737a63b8",
+  "short": "Nierenzellkarzinom 1L nach Nephrektomie, fortgeschritten/metastasiert, Kombination mit Interferon alfa-2a",
+  "status": "KI, ungeprüft"
+ },
+ "21264.04|Bevacizumab-Teva": {
+  "hash": "f324c91e7d",
+  "short": "Mammakarzinom HER2-negativ, 1L lokal rezidivierend/metastasiert, Kombination mit Paclitaxel",
+  "status": "KI, ungeprüft"
+ },
+ "21264.05|Bevacizumab-Teva": {
+  "hash": "965ef39db2",
+  "short": "Ovarialkarzinom FIGO III–IV, nicht vorbehandelt, nicht vollständig reseziert",
+  "status": "KI, ungeprüft"
+ },
+ "21264.06|Bevacizumab-Teva": {
+  "hash": "966fff2e60",
+  "short": "Zervixkarzinom persistierend/rezidivierend/metastasiert, Kombination mit Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21264.07|Bevacizumab-Teva": {
+  "hash": "98838d1f29",
+  "short": "Glioblastom rezidivierend (WHO IV), 2L-Monotherapie nach Temozolomid",
+  "status": "KI, ungeprüft"
+ },
+ "21264.08|Bevacizumab-Teva": {
+  "hash": "3c9c391698",
+  "short": "HCC inoperabel/metastasiert, Kombination mit Atezolizumab (Tecentriq)",
+  "status": "KI, ungeprüft"
+ },
+ "21264.09|Bevacizumab-Teva": {
+  "hash": "3bcbae48bd",
+  "short": "Ovarialkarzinom, Erhaltung nach 1L-Chemotherapie, Kombination mit Olaparib (Lynparza)",
+  "status": "KI, ungeprüft"
+ },
+ "21264.10|Bevacizumab-Teva": {
+  "hash": "6b0b1f1117",
+  "short": "Kolorektalkarzinom metastasiert, Kombination mit Trifluridin/Tipiracil (Lonsurf)",
+  "status": "KI, ungeprüft"
+ },
+ "21272.01|Oyavas": {
+  "hash": "3c0789a697",
+  "short": "Kolorektalkarzinom",
+  "status": "automatisch"
+ },
+ "21272.02|Oyavas": {
+  "hash": "13e491c137",
+  "short": "Lungenkarzinom",
+  "status": "automatisch"
+ },
+ "21272.03|Oyavas": {
+  "hash": "f6dbee81b1",
+  "short": "Nierenzellkarzinom",
+  "status": "automatisch"
+ },
+ "21272.04|Oyavas": {
+  "hash": "44cdad5187",
+  "short": "Mammakarzinom",
+  "status": "automatisch"
+ },
+ "21272.05|Oyavas": {
+  "hash": "2d20595a62",
+  "short": "Ovarialkarzinom",
+  "status": "automatisch"
+ },
+ "21272.06|Oyavas": {
+  "hash": "0d4b0667c7",
+  "short": "Zervixkarzinom",
+  "status": "automatisch"
+ },
+ "21272.07|Oyavas": {
+  "hash": "d63776b39d",
+  "short": "Glioblastom rezidivierend (WHO IV), 2L-Monotherapie nach Temozolomid",
+  "status": "KI, ungeprüft"
+ },
+ "21272.09|Oyavas": {
+  "hash": "3c24972d6a",
+  "short": "Ovarialkarzinom nach Erstlinienchemotherapie Kombinationstherapie mit Lynparza (Olaparib)",
+  "status": "automatisch"
+ },
+ "21272.10|Oyavas": {
+  "hash": "433894588d",
+  "short": "Kolorektalkarzinom metastasiert, Kombination mit Trifluridin/Tipiracil (Lonsurf)",
+  "status": "KI, ungeprüft"
+ },
+ "21276.01|Polivy": {
+  "hash": "a5860be686",
+  "short": "Rezidiviertem oder refraktärem diffusem grosszelligem B-Zell-Lymphom (DLBCL) in Kombination mit Rituximab und Bendamustin",
+  "status": "automatisch"
+ },
+ "21282.01|Tabrecta": {
+  "hash": "60d9f0ae7e",
+  "short": "NSCLC fortgeschritten/metastasiert mit MET-Exon-14-Skipping-Mutation",
+  "status": "KI, ungeprüft"
+ },
+ "21285.01|Tepmetko": {
+  "hash": "c47b41cd64",
+  "short": "NSCLC fortgeschritten/metastasiert mit MET-Exon-14-Skipping-Mutation, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21290.01|Trodelvy": {
+  "hash": "e129d31ce6",
+  "short": "Triple-negatives Mammakarzinom (TNBC)",
+  "status": "automatisch"
+ },
+ "21290.02|Trodelvy": {
+  "hash": "c4d36957e0",
+  "short": "HR+/HER2- Mammakarzinom",
+  "status": "automatisch"
+ },
+ "21303.01|Pemazyre": {
+  "hash": "2f1ae0295e",
+  "short": "Cholangiokarzinom mit FGFR2-Fusion/-Rearrangement, vorbehandelt, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21304.01|Herzuma": {
+  "hash": "ea3c1965bf",
+  "short": "In Kombination mit Pertuzumab (PERJETA) als adjuvante Therapie des Mammakarzinoms",
+  "status": "automatisch"
+ },
+ "21304.02|Herzuma": {
+  "hash": "59bc3a1c89",
+  "short": "Weitere zugelassene Indikationen (ohne Preismodell)",
+  "status": "KI, ungeprüft"
+ },
+ "21312.01|Lenalidomid Sandoz": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21312.02|Lenalidomid Sandoz": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21312.03|Lenalidomid Sandoz": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21312.04|Lenalidomid Sandoz": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21312.08|Lenalidomid Sandoz": {
+  "hash": "f345922e85",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21312.09|Lenalidomid Sandoz": {
+  "hash": "285baadc15",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21312.11|Lenalidomid Sandoz": {
+  "hash": "c8d31f1e8b",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21312.12|Lenalidomid Sandoz": {
+  "hash": "c155199af3",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21312.13|Lenalidomid Sandoz": {
+  "hash": "d75a92066e",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21312.14|Lenalidomid Sandoz": {
+  "hash": "e3b2819b6f",
+  "short": "In Kombination mit Isatuximab und Bortezomib und Dexamethason)",
+  "status": "automatisch"
+ },
+ "21312.15|Lenalidomid Sandoz": {
+  "hash": "bf0cf20d33",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21312.16|Lenalidomid Sandoz": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21316.01|Abirateron Sandoz": {
+  "hash": "301aa444b5",
+  "short": "mCRPC asymptomatisch/leicht symptomatisch, Kombination mit LHRH-Agonist + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21332.01|Cabazitaxel Accord": {
+  "hash": "6b0e9d5103",
+  "short": "mCRPC nach Docetaxel, Kombination mit Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21338.01|Enhertu": {
+  "hash": "2ac0cab8c9",
+  "short": "HER2-positiver Brustkrebs",
+  "status": "automatisch"
+ },
+ "21338.02|Enhertu": {
+  "hash": "9934cb5f67",
+  "short": "HER2-positiver Brustkrebs (3L+)",
+  "status": "automatisch"
+ },
+ "21338.03|Enhertu": {
+  "hash": "a2759aa8ef",
+  "short": "HER2-niedrig-exprimierender Brustkrebs (HER2-low Breast Cancer)",
+  "status": "automatisch"
+ },
+ "21341.01|Poteligeo": {
+  "hash": "888f71da62",
+  "short": "Mycosis fungoides / Sézary-Syndrom rezidiviert/refraktär, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21356.01|Abirateron Spirig HC": {
+  "hash": "6f733a9f83",
+  "short": "mCRPC asymptomatisch/leicht symptomatisch, Kombination mit LHRH-Agonist + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21365.01|Brukinsa": {
+  "hash": "6a0beb249c",
+  "short": "CLL 2L+, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21365.02|Brukinsa": {
+  "hash": "d660c01759",
+  "short": "Morbus Waldenström, Monotherapie (nicht geeignet für Rituximab-Chemoimmuntherapie)",
+  "status": "KI, ungeprüft"
+ },
+ "21369.01|Ledaga": {
+  "hash": "036cb6b227",
+  "short": "Mycosis fungoides (MF-CTCL), topische Behandlung, Erwachsene",
+  "status": "KI, ungeprüft"
+ },
+ "21373.01|Jemperli": {
+  "hash": "f87e24fe04",
+  "short": "Endometriumkarzinom dMMR/MSI-H, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21373.02|Jemperli": {
+  "hash": "c27f864a58",
+  "short": "Endometriumkarzinom (Kombination mit Platin- Chemotherapie)",
+  "status": "automatisch"
+ },
+ "21377.01|Lenalidomid BMS": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21377.02|Lenalidomid BMS": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21377.03|Lenalidomid BMS": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21377.04|Lenalidomid BMS": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21377.08|Lenalidomid BMS": {
+  "hash": "ba30bd5b8a",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21377.09|Lenalidomid BMS": {
+  "hash": "a7147cb7db",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21377.11|Lenalidomid BMS": {
+  "hash": "e934c487c8",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21377.12|Lenalidomid BMS": {
+  "hash": "e621bd6396",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21377.13|Lenalidomid BMS": {
+  "hash": "d96191e587",
+  "short": "LENALIDOMID ACCORD in Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21377.14|Lenalidomid BMS": {
+  "hash": "fe0392bbe6",
+  "short": "Multiples Myelom 1L, Kombination mit Isatuximab, Bortezomib, Dexamethason (Isa-VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21377.15|Lenalidomid BMS": {
+  "hash": "63a4c1687a",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21377.16|Lenalidomid BMS": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21379.01|Lenalidomid-Teva": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21379.02|Lenalidomid-Teva": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21379.03|Lenalidomid-Teva": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21379.04|Lenalidomid-Teva": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21379.08|Lenalidomid-Teva": {
+  "hash": "6965345829",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21379.09|Lenalidomid-Teva": {
+  "hash": "b8c42465bc",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21379.11|Lenalidomid-Teva": {
+  "hash": "bec9eed2ce",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21379.12|Lenalidomid-Teva": {
+  "hash": "1a26e18baa",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21379.13|Lenalidomid-Teva": {
+  "hash": "4862af50b9",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21379.14|Lenalidomid-Teva": {
+  "hash": "52c10c9ea6",
+  "short": "In Kombination mit Isatuximab und Bortezomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21379.15|Lenalidomid-Teva": {
+  "hash": "008136c471",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21379.16|Lenalidomid-Teva": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21381.01|Lenalidomid Zentiva": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21381.02|Lenalidomid Zentiva": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21381.03|Lenalidomid Zentiva": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21381.04|Lenalidomid Zentiva": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21381.08|Lenalidomid Zentiva": {
+  "hash": "988f5de86d",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21381.09|Lenalidomid Zentiva": {
+  "hash": "5fde4907d4",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21381.11|Lenalidomid Zentiva": {
+  "hash": "2847d287c0",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21381.12|Lenalidomid Zentiva": {
+  "hash": "ce83b2dab4",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21381.13|Lenalidomid Zentiva": {
+  "hash": "806815cdcf",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21381.14|Lenalidomid Zentiva": {
+  "hash": "40c8f080a8",
+  "short": "In Kombination mit Isatuximab und Bortezomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21381.15|Lenalidomid Zentiva": {
+  "hash": "f23d0403d3",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21381.16|Lenalidomid Zentiva": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21384.01|Lenalidomid Spirig HC": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21384.02|Lenalidomid Spirig HC": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21384.03|Lenalidomid Spirig HC": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21384.04|Lenalidomid Spirig HC": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21384.08|Lenalidomid Spirig HC": {
+  "hash": "1aa756ff7f",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21384.09|Lenalidomid Spirig HC": {
+  "hash": "dfcb5348bc",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21384.11|Lenalidomid Spirig HC": {
+  "hash": "2c723aa6a1",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21384.12|Lenalidomid Spirig HC": {
+  "hash": "a22eb24a58",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21384.13|Lenalidomid Spirig HC": {
+  "hash": "85b4f4d702",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21384.14|Lenalidomid Spirig HC": {
+  "hash": "e6fc2e5a3a",
+  "short": "In Kombination mit Isatuximab und Bortezomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21384.15|Lenalidomid Spirig HC": {
+  "hash": "d4926152e9",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21384.16|Lenalidomid Spirig HC": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21390.01|Rybrevant": {
+  "hash": "1bd89499f1",
+  "short": "NSCLC EGFR Exon-20-Insertion, 2L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21390.02|Rybrevant": {
+  "hash": "fd0791426a",
+  "short": "NSCLC EGFR Exon-19-Del/L858R nach Osimertinib, Kombination mit Carboplatin + Pemetrexed",
+  "status": "KI, ungeprüft"
+ },
+ "21390.03|Rybrevant": {
+  "hash": "a304fd3b97",
+  "short": "NSCLC EGFR Exon-20-Insertion, 1L, Kombination mit Carboplatin + Pemetrexed",
+  "status": "KI, ungeprüft"
+ },
+ "21390.04|Rybrevant": {
+  "hash": "bc44be4191",
+  "short": "NSCLC EGFR Exon-19-Del/L858R, 1L, Kombination mit Lazertinib",
+  "status": "KI, ungeprüft"
+ },
+ "21398.01|Lenalidomid Accord": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21398.02|Lenalidomid Accord": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21398.03|Lenalidomid Accord": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21398.04|Lenalidomid Accord": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21398.08|Lenalidomid Accord": {
+  "hash": "29a72ff558",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21398.09|Lenalidomid Accord": {
+  "hash": "4a5d3f61c6",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21398.11|Lenalidomid Accord": {
+  "hash": "c59a2f5604",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21398.12|Lenalidomid Accord": {
+  "hash": "246fa19f21",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21398.13|Lenalidomid Accord": {
+  "hash": "d96191e587",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21398.14|Lenalidomid Accord": {
+  "hash": "9ca70e5026",
+  "short": "In Kombination mit Isatuximab und Bortezomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21398.15|Lenalidomid Accord": {
+  "hash": "ca0834fc07",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21398.16|Lenalidomid Accord": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21401.01|Minjuvi": {
+  "hash": "7ebc7bb8ff",
+  "short": "2L+ diffuses grosszelliges B-Zell-Lymphom (DLBCL) in Kombination mit Lenalidomid",
+  "status": "automatisch"
+ },
+ "21402.01|Koselugo": {
+  "hash": "3684ecea62",
+  "short": "Neurofibromatose Typ 1 mit symptomatischen inoperablen plexiformen Neurofibromen (ab 3 J.)",
+  "status": "KI, ungeprüft"
+ },
+ "21414.02|Azacitidin Ideogen": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "21420.01|Lenalidomid Devatis": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21420.02|Lenalidomid Devatis": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21420.03|Lenalidomid Devatis": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21420.04|Lenalidomid Devatis": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21420.08|Lenalidomid Devatis": {
+  "hash": "9444295111",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21420.09|Lenalidomid Devatis": {
+  "hash": "50c727de4b",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21420.11|Lenalidomid Devatis": {
+  "hash": "ee531f7253",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21420.12|Lenalidomid Devatis": {
+  "hash": "0a464d7abd",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21420.13|Lenalidomid Devatis": {
+  "hash": "77a36afe53",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21420.14|Lenalidomid Devatis": {
+  "hash": "ec29acbc71",
+  "short": "In Kombination mit Isatuximab und Bortezomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21420.15|Lenalidomid Devatis": {
+  "hash": "f7479fca76",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21420.16|Lenalidomid Devatis": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21423.01|Abirateron Accord": {
+  "hash": "854c961546",
+  "short": "mCRPC asymptomatisch/leicht symptomatisch, Kombination mit LHRH-Agonist + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21437.01|Tavneos": {
+  "hash": "872dccfb64",
+  "short": "ANCA-assoziierte Vaskulitis (schwer, aktiv), ergänzend zu Standardtherapie, max. 12 Monate",
+  "status": "KI, ungeprüft"
+ },
+ "21471.01|Scemblix": {
+  "hash": "70e84b950a",
+  "short": "CML Ph+ chronische Phase, neu diagnostiziert oder nach TKI-Versagen/-Unverträglichkeit",
+  "status": "KI, ungeprüft"
+ },
+ "21481.01|Abirateron Zentiva": {
+  "hash": "31d1c43379",
+  "short": "mCRPC asymptomatisch/leicht symptomatisch, Kombination mit LHRH-Agonist + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21512.02|Decitabin Sandoz": {
+  "hash": "1953bdca7a",
+  "short": "AML, nicht geeignet für intensive Chemotherapie/SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21515.01|Opdualag": {
+  "hash": "de5b84c1ca",
+  "short": "Melanom inoperabel/metastasiert, 1L, PD-L1 < 1 %",
+  "status": "KI, ungeprüft"
+ },
+ "21518.01|Tecvayli": {
+  "hash": "0578d13300",
+  "short": "Multiples Myelom nach ≥ 3 Therapielinien (inkl. PI, IMiD, Anti-CD38), Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21521.01|Qinlock": {
+  "hash": "3d58a1073f",
+  "short": "GIST fortgeschritten nach Imatinib, Sunitinib und Regorafenib",
+  "status": "KI, ungeprüft"
+ },
+ "21554.02|Decitabin Accord": {
+  "hash": "1953bdca7a",
+  "short": "AML, nicht geeignet für intensive Chemotherapie/SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21557.01|Aspaveli": {
+  "hash": "149bc0fd1e",
+  "short": "Paroxysmale nächtliche Hämoglobinurie (PNH), Erwachsene",
+  "status": "KI, ungeprüft"
+ },
+ "21571.01|Cabazitaxel-Teva": {
+  "hash": "f7f809d544",
+  "short": "mCRPC nach Docetaxel, Kombination mit Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21579.01|Elzonris": {
+  "hash": "9f88ef077b",
+  "short": "Blastische plasmazytoide dendritische Zellneoplasie (BPDCN), 1L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21597.01|Zejula": {
+  "hash": "0519514d23",
+  "short": "Ovarialkarzinom mit platin-sensitivem Rezidiv (2L+)",
+  "status": "automatisch"
+ },
+ "21597.02|Zejula": {
+  "hash": "bb4ea2d9b0",
+  "short": "Ovarialkarzinom FIGO III–IV high-grade serös, Erhaltung nach 1L-Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21600.01|Abirateron Viatris": {
+  "hash": "e7ec0c3d90",
+  "short": "mCRPC asymptomatisch/leicht symptomatisch, Kombination mit LHRH-Agonist + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21617.01|Vegzelma": {
+  "hash": "d1f7c6a1d7",
+  "short": "Kolorektalkarzinom",
+  "status": "automatisch"
+ },
+ "21617.02|Vegzelma": {
+  "hash": "7234bbe447",
+  "short": "Lungenkarzinom",
+  "status": "automatisch"
+ },
+ "21617.03|Vegzelma": {
+  "hash": "d8530fed98",
+  "short": "Nierenzellkarzinom",
+  "status": "automatisch"
+ },
+ "21617.04|Vegzelma": {
+  "hash": "4baa94a08a",
+  "short": "Mammakarzinom",
+  "status": "automatisch"
+ },
+ "21617.05|Vegzelma": {
+  "hash": "eab4ed6f96",
+  "short": "Ovarialkarzinom",
+  "status": "automatisch"
+ },
+ "21617.06|Vegzelma": {
+  "hash": "3afb63806d",
+  "short": "Zervixkarzinom",
+  "status": "automatisch"
+ },
+ "21617.07|Vegzelma": {
+  "hash": "75f45d527e",
+  "short": "Glioblastom rezidivierend (WHO IV), 2L-Monotherapie nach Temozolomid",
+  "status": "KI, ungeprüft"
+ },
+ "21617.08|Vegzelma": {
+  "hash": "81ba18f84a",
+  "short": "HCC inoperabel/metastasiert, Kombination mit Atezolizumab (Tecentriq)",
+  "status": "KI, ungeprüft"
+ },
+ "21617.09|Vegzelma": {
+  "hash": "99ec9f4547",
+  "short": "Ovarialkarzinom nach Erstlinienchemotherapie Kombinationstherapie mit Lynparza (Olaparib)",
+  "status": "automatisch"
+ },
+ "21617.10|Vegzelma": {
+  "hash": "a11e9da014",
+  "short": "Kolorektalkarzinom metastasiert, Kombination mit Trifluridin/Tipiracil (Lonsurf)",
+  "status": "KI, ungeprüft"
+ },
+ "21626.01|Lenalidomid Viatris": {
+  "hash": "667e224d43",
+  "short": "Multiples Myelom 1L (nicht transplantationsfähig), mit Dexamethason oder MP",
+  "status": "KI, ungeprüft"
+ },
+ "21626.02|Lenalidomid Viatris": {
+  "hash": "f6a44f7f35",
+  "short": "Multiples Myelom 2L+, Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21626.03|Lenalidomid Viatris": {
+  "hash": "ad711bf84b",
+  "short": "MDS mit del(5q), transfusionsabhängige Anämie, niedriges/intermediäres-1 Risiko",
+  "status": "KI, ungeprüft"
+ },
+ "21626.04|Lenalidomid Viatris": {
+  "hash": "01e128867b",
+  "short": "Multiples Myelom, Erhaltungstherapie nach autologer SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21626.08|Lenalidomid Viatris": {
+  "hash": "0796fb1d1d",
+  "short": "In Kombination mit Elotuzumab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21626.09|Lenalidomid Viatris": {
+  "hash": "6aa8fbfcbe",
+  "short": "In Kombination mit Ixazomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21626.11|Lenalidomid Viatris": {
+  "hash": "51a73e9cf8",
+  "short": "In Kombination mit Tafasitamab",
+  "status": "automatisch"
+ },
+ "21626.12|Lenalidomid Viatris": {
+  "hash": "0a8bdfe3e3",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21626.13|Lenalidomid Viatris": {
+  "hash": "b0ae5804a7",
+  "short": "In Kombination mit DARZALEX / DARZALEX SC und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21626.14|Lenalidomid Viatris": {
+  "hash": "2c1b32bfd9",
+  "short": "In Kombination mit Isatuximab und Bortezomib und Dexamethason",
+  "status": "automatisch"
+ },
+ "21626.15|Lenalidomid Viatris": {
+  "hash": "2eb8fbd18c",
+  "short": "In Kombination mit DARZALEX SC, Bortezomib und Dexamethason (1L)",
+  "status": "automatisch"
+ },
+ "21626.16|Lenalidomid Viatris": {
+  "hash": "6db99abe8d",
+  "short": "Multiples Myelom 1L, Kombination mit Bortezomib + Dexamethason (VRd)",
+  "status": "KI, ungeprüft"
+ },
+ "21628.01|Cabazitaxel Sandoz": {
+  "hash": "3ba1e6f238",
+  "short": "mCRPC nach Docetaxel, Kombination mit Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21633.01|Xaluprine": {
+  "hash": "cce8630abf",
+  "short": "Kinder ≤ 12 J. ohne Tabletteneinnahme möglich bzw. Patienten mit Schluckbeschwerden",
+  "status": "KI, ungeprüft"
+ },
+ "21640.01|Kimmtrak": {
+  "hash": "740f323593",
+  "short": "Uveales Melanom inoperabel/metastasiert, HLA-A*02:01-positiv, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21641.01|Cabazitaxel Spirig HC": {
+  "hash": "fdad5becfb",
+  "short": "mCRPC nach Docetaxel, Kombination mit Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21647.01|Elrexfio": {
+  "hash": "a40253d3fd",
+  "short": "Multiples Myelom triple-refraktär (IMiD, PI, Anti-CD38), Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21651.01|Calquence": {
+  "hash": "99e63e3189",
+  "short": "CLL 1L mit 17p-Deletion/TP53-Mutation, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21651.02|Calquence": {
+  "hash": "0a39ae12e6",
+  "short": "CLL 1L mit unmutiertem IGHV, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21651.03|Calquence": {
+  "hash": "17a29a6a86",
+  "short": "CLL 2L+, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21651.04|Calquence": {
+  "hash": "5cbb44d89c",
+  "short": "Mantelzelllymphom rezidiviert/refraktär, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21672.01|Cabazitaxel Viatris": {
+  "hash": "eae0802b6e",
+  "short": "mCRPC nach Docetaxel, Kombination mit Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21690.01|Talvey": {
+  "hash": "570804f092",
+  "short": "Multiples Myelom nach ≥ 3 Therapielinien (inkl. PI, IMiD, Anti-CD38), Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21691.01|IMJUDO": {
+  "hash": "ee2c9cf5a3",
+  "short": "HCC inoperabel, 1L, Kombination mit Imfinzi (Durvalumab)",
+  "status": "KI, ungeprüft"
+ },
+ "21692.01|Alhemo": {
+  "hash": "1bbbcf4811",
+  "short": "Hämophilie A mit Hemmkörpern, Prophylaxe (ab 12 J.)",
+  "status": "KI, ungeprüft"
+ },
+ "21692.02|Alhemo": {
+  "hash": "1da6cee91e",
+  "short": "Hämophilie B mit Hemmkörpern, Prophylaxe (ab 12 J.)",
+  "status": "KI, ungeprüft"
+ },
+ "21693.01|Jaypirca": {
+  "hash": "c7b042ede9",
+  "short": "CLL rezidiviert/refraktär, 3L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21693.02|Jaypirca": {
+  "hash": "a9de27c43a",
+  "short": "Mantelzelllymphom rezidiviert/refraktär, 3L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21700.01|Cabazitaxel Labatec": {
+  "hash": "66b0a6300b",
+  "short": "mCRPC nach Docetaxel, Kombination mit Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21716.01|Akeega": {
+  "hash": "3a1ccaa05e",
+  "short": "mCRPC mit BRCA-Genveränderung, 1L, Kombination mit ADT + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21716.02|Akeega": {
+  "hash": "b683bd51f4",
+  "short": "mHSPC mit BRCA2-Genveränderung, Kombination mit ADT + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21726.01|Hemgenix": {
+  "hash": "b682404a3b",
+  "short": "Hämophilie B schwer/mittelschwer (FIX ≤ 2 %), Männer, Gentherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21727.01|Truqap": {
+  "hash": "12729d58b5",
+  "short": "Mammakarzinom HR+/HER2− mit PIK3CA/AKT1/PTEN-Alteration nach endokriner Therapie, mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "21731.01|Ibrance": {
+  "hash": "f67292792e",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 1L, Kombination mit Aromatasehemmer",
+  "status": "KI, ungeprüft"
+ },
+ "21731.02|Ibrance": {
+  "hash": "a18a120a62",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 1L bei frühem Rezidiv, Kombination mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "21731.03|Ibrance": {
+  "hash": "98d1fa0a83",
+  "short": "Mammakarzinom HR+/HER2− fortgeschritten, 2L, Kombination mit Fulvestrant",
+  "status": "KI, ungeprüft"
+ },
+ "21737.01|Abirateron Devatis": {
+  "hash": "fa7526df48",
+  "short": "mCRPC asymptomatisch/leicht symptomatisch, Kombination mit LHRH-Agonist + Prednison/Prednisolon",
+  "status": "KI, ungeprüft"
+ },
+ "21740.01|Tepkinly": {
+  "hash": "452ae4252a",
+  "short": "DLBCL rezidivierend/refraktär nach ≥ 2 systemischen Therapien, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21741.01|Tepkinly": {
+  "hash": "a0aa9ece08",
+  "short": "DLBCL rezidivierend/refraktär nach ≥ 2 systemischen Therapien, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21743.01|Qarziba": {
+  "hash": "eafe064503",
+  "short": "Erstlinien-Postkonsolidierungstherapie des Neuroblastoms",
+  "status": "automatisch"
+ },
+ "21743.02|Qarziba": {
+  "hash": "4e1e945748",
+  "short": "Neuroblastom rezidiviert/refraktär, mit Isotretinoin oder Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21752.01|B12 Ankermann Drag": {
+  "hash": "b8aaa7939a",
+  "short": "Vitamin-B12-Mangel, Erwachsene",
+  "status": "KI, ungeprüft"
+ },
+ "21759.02|Azacitidin Stada": {
+  "hash": "a4553d8499",
+  "short": "MDS (Intermediär-2/Hochrisiko), CMML oder AML, nicht transplantationsfähig",
+  "status": "KI, ungeprüft"
+ },
+ "21763.01|Orserdu": {
+  "hash": "b1a921689f",
+  "short": "Mammakarzinom ER+/HER2− fortgeschritten mit ESR1-Mutation, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21773.01|Pomalidomid Sandoz": {
+  "hash": "0986e6ea7c",
+  "short": "Multiples Myelom 3L+, Kombination mit Elotuzumab + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21773.03|Pomalidomid Sandoz": {
+  "hash": "327532863c",
+  "short": "In Kombination mit Daratumumab und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21773.04|Pomalidomid Sandoz": {
+  "hash": "6983c9fd72",
+  "short": "In Kombination mit Isatuximab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21784.01|Fabhalta": {
+  "hash": "24ff96793d",
+  "short": "Paroxysmale nächtliche Hämoglobinurie (PNH), Erwachsene",
+  "status": "KI, ungeprüft"
+ },
+ "21785.01|Tevimbra": {
+  "hash": "143fb57126",
+  "short": "Ösophageales Plattenepithelkarzinom, 2L nach Platin, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21785.02|Tevimbra": {
+  "hash": "3d5827084e",
+  "short": "Ösophageales Plattenepithelkarzinom, 1L, Kombination mit Platin-Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21785.03|Tevimbra": {
+  "hash": "95748af9bd",
+  "short": "Adenokarzinom Magen/GEJ, 1L, Kombination mit Platin-/Fluoropyrimidin-Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21805.01|Pomalidomid Spirig HC": {
+  "hash": "17325e82be",
+  "short": "Multiples Myelom 3L+, Kombination mit Elotuzumab + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21805.03|Pomalidomid Spirig HC": {
+  "hash": "584b6abd90",
+  "short": "In Kombination mit Daratumumab und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21805.04|Pomalidomid Spirig HC": {
+  "hash": "9f50e04201",
+  "short": "In Kombination mit Isatuximab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21806.01|Pomalidomid Zentiva": {
+  "hash": "896a554616",
+  "short": "Multiples Myelom 3L+, Kombination mit Elotuzumab + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21806.03|Pomalidomid Zentiva": {
+  "hash": "1ca330ccac",
+  "short": "In Kombination mit Daratumumab und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21806.04|Pomalidomid Zentiva": {
+  "hash": "c90910de89",
+  "short": "In Kombination mit Isatuximab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21811.01|Nexpovio": {
+  "hash": "4d023a61b6",
+  "short": "Multiples Myelom nach ≥ 4 Therapielinien (penta-refraktär), Kombination mit Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21837.01|Fruzaqla": {
+  "hash": "3ab1b8c540",
+  "short": "Kolorektalkarzinom metastasiert nach Standardtherapien, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21844.01|Tecentriq": {
+  "hash": "cb17b7cf08",
+  "short": "NSCLC fortgeschritten/metastasiert nach Chemotherapie, 2L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21844.02|Tecentriq": {
+  "hash": "aa0a1bfe20",
+  "short": "Kleinzelliges Lungenkarzinom ES-SCLC, 1L, Kombination mit Carboplatin + Etoposid",
+  "status": "KI, ungeprüft"
+ },
+ "21844.03|Tecentriq": {
+  "hash": "4b982caf9d",
+  "short": "HCC inoperabel/metastasiert, 1L, Kombination mit Bevacizumab",
+  "status": "KI, ungeprüft"
+ },
+ "21844.04|Tecentriq": {
+  "hash": "3515987085",
+  "short": "NSCLC im Frühstadium, adjuvant",
+  "status": "automatisch"
+ },
+ "21844.05|Tecentriq": {
+  "hash": "6410d80e71",
+  "short": "1L nicht-plattenepitheliales NSCLC (in Kombination mit Nab-Paclitaxel und Carboplatin)",
+  "status": "automatisch"
+ },
+ "21844.06|Tecentriq": {
+  "hash": "257537b4a0",
+  "short": "1L nicht-plattenepitheliales NSCLC (in Kombination mit Paclitaxel und Carboplatin)",
+  "status": "automatisch"
+ },
+ "21846.02|Decitabine Ideogen": {
+  "hash": "1953bdca7a",
+  "short": "AML, nicht geeignet für intensive Chemotherapie/SZT",
+  "status": "KI, ungeprüft"
+ },
+ "21851.01|Lytgobi": {
+  "hash": "c00c3fdc27",
+  "short": "Cholangiokarzinom mit FGFR2-Fusion/-Rearrangement, vorbehandelt, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21854.01|Balversa": {
+  "hash": "f1c9cd4bc9",
+  "short": "Urothelkarzinom inoperabel/metastasiert mit FGFR3-Alteration, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21862.01|Ruxience": {
+  "hash": "da74f53d2c",
+  "short": "Hämatologie: CD20+ Non-Hodgkin-Lymphome / CLL gemäss Limitation (u.a. FL 1L mit CVP)",
+  "status": "KI, ungeprüft"
+ },
+ "21862.02|Ruxience": {
+  "hash": "311192edd9",
+  "short": "Autoimmunerkrankungen",
+  "status": "automatisch"
+ },
+ "21862.03|Ruxience": {
+  "hash": "5949cd856e",
+  "short": "DLBCL rezidiviert/refraktär, Kombination mit Polivy + Bendamustin",
+  "status": "KI, ungeprüft"
+ },
+ "21880.01|Pomalidomid-Teva": {
+  "hash": "f4c39f66af",
+  "short": "Multiples Myelom 3L+, Kombination mit Elotuzumab + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "21880.03|Pomalidomid-Teva": {
+  "hash": "534a750266",
+  "short": "In Kombination mit Daratumumab und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "21880.04|Pomalidomid-Teva": {
+  "hash": "c09709bd63",
+  "short": "In Kombination mit Isatuximab und Dexamethason",
+  "status": "automatisch"
+ },
+ "21887.01|Hympavzi": {
+  "hash": "aeeb903ae4",
+  "short": "Hämophilie A schwer ohne Inhibitoren, Routineprophylaxe (ab 12 J., ≥ 35 kg)",
+  "status": "KI, ungeprüft"
+ },
+ "21887.02|Hympavzi": {
+  "hash": "31b0631f17",
+  "short": "Hämophilie B schwer ohne Inhibitoren, Routineprophylaxe (ab 12 J., ≥ 35 kg)",
+  "status": "KI, ungeprüft"
+ },
+ "21918.01|Elahere": {
+  "hash": "07fe5a6a90",
+  "short": "Ovarialkarzinom FRα-positiv, platinresistent, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "21934.01|Lazcluze": {
+  "hash": "cc92b5ee5d",
+  "short": "1L NSCLC (in Kombination mit Amivantamab) Patienten können bis zum Auftreten einer Krankheitsprogression oder inakzeptabler Toxizität behandelt werden.",
+  "status": "automatisch"
+ },
+ "21941.01|Doxorubicin Accord liposomal": {
+  "hash": "1616329a71",
+  "short": "AIDS-assoziiertes Kaposi-Sarkom (CD4 < 200/μl)",
+  "status": "KI, ungeprüft"
+ },
+ "21999.01|BCG-medac": {
+  "hash": "4a455ec389",
+  "short": "Nicht-invasives Urothelkarzinom der Harnblase (CIS, Rezidivprophylaxe), intravesikal",
+  "status": "KI, ungeprüft"
+ },
+ "22005.01|Pomalidomid Accord": {
+  "hash": "8238eff14f",
+  "short": "Multiples Myelom 3L+, Kombination mit Elotuzumab + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "22005.03|Pomalidomid Accord": {
+  "hash": "3b169facd6",
+  "short": "In Kombination mit Daratumumab und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "22005.04|Pomalidomid Accord": {
+  "hash": "b81876104f",
+  "short": "In Kombination mit Isatuximab und Dexamethason",
+  "status": "automatisch"
+ },
+ "22012.03|Eltrombopag-Mepha": {
+  "hash": "a9cb782034",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Erwachsene",
+  "status": "automatisch"
+ },
+ "22012.04|Eltrombopag-Mepha": {
+  "hash": "10515672b1",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
+  "status": "automatisch"
+ },
+ "22030.03|Eltrombopag Zentiva": {
+  "hash": "a9cb782034",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Erwachsene",
+  "status": "automatisch"
+ },
+ "22030.04|Eltrombopag Zentiva": {
+  "hash": "10515672b1",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
+  "status": "automatisch"
+ },
+ "22031.01|Nintedanib Zentiva Weichkaps": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
+ "22031.02|Nintedanib Zentiva Weichkaps": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22031.03|Nintedanib Zentiva Weichkaps": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ },
+ "22033.01|Nintedanib Sandoz Weichkaps": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
+ "22033.02|Nintedanib Sandoz Weichkaps": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22033.03|Nintedanib Sandoz Weichkaps": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ },
+ "22035.01|Nintedanib-Mepha Weichkaps": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
+ "22035.02|Nintedanib-Mepha Weichkaps": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22035.03|Nintedanib-Mepha Weichkaps": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ },
+ "22040.03|Eltrombopag NOBEL": {
+  "hash": "a9cb782034",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Erwachsene",
+  "status": "automatisch"
+ },
+ "22040.04|Eltrombopag NOBEL": {
+  "hash": "10515672b1",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
+  "status": "automatisch"
+ },
+ "22043.03|Eltrombopag Spirig HC": {
+  "hash": "a9cb782034",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Erwachsene",
+  "status": "automatisch"
+ },
+ "22043.04|Eltrombopag Spirig HC": {
+  "hash": "10515672b1",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
+  "status": "automatisch"
+ },
+ "22044.01|Nintedanib Spirig HC Weichkaps": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
+ "22044.02|Nintedanib Spirig HC Weichkaps": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22044.03|Nintedanib Spirig HC Weichkaps": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ },
+ "22046.03|Eltrombopag Accord": {
+  "hash": "a9cb782034",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Erwachsene",
+  "status": "automatisch"
+ },
+ "22046.04|Eltrombopag Accord": {
+  "hash": "10515672b1",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
+  "status": "automatisch"
+ },
+ "22079.01|Pomalidomid Devatis": {
+  "hash": "b50c591327",
+  "short": "Multiples Myelom 3L+, Kombination mit Elotuzumab + Dexamethason",
+  "status": "KI, ungeprüft"
+ },
+ "22079.03|Pomalidomid Devatis": {
+  "hash": "8baf4b2b51",
+  "short": "In Kombination mit Daratumumab und Dexamethason (2L+)",
+  "status": "automatisch"
+ },
+ "22079.04|Pomalidomid Devatis": {
+  "hash": "0ed9bf3086",
+  "short": "In Kombination mit Isatuximab und Dexamethason",
+  "status": "automatisch"
+ },
+ "22081.01|Ezmekly Hartkaps": {
+  "hash": "1452136d3d",
+  "short": "Neurofibromatose Typ 1 mit symptomatischen inoperablen plexiformen Neurofibromen (ab 2 J.)",
+  "status": "KI, ungeprüft"
+ },
+ "22089.01|Rybrevant SC": {
+  "hash": "4c87bf2a87",
+  "short": "NSCLC EGFR Exon-20-Insertion, 2L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "22089.04|Rybrevant SC": {
+  "hash": "bd94096378",
+  "short": "NSCLC EGFR Exon-19-Del/L858R, 1L, Kombination mit Lazertinib",
+  "status": "KI, ungeprüft"
+ },
+ "22095.01|Opdivo": {
+  "hash": "5f6fa81fab",
+  "short": "Nicht-kleinzelliges Lungenkarzinom (NSCLC)",
+  "status": "automatisch"
+ },
+ "22095.02|Opdivo": {
+  "hash": "8a3e5ee2ee",
+  "short": "Melanom fortgeschritten, Monotherapie (subkutan)",
+  "status": "KI, ungeprüft"
+ },
+ "22095.03|Opdivo": {
+  "hash": "d04aeb2c45",
+  "short": "Melanom fortgeschritten, Monotherapiephase nach Nivolumab i.v. + Ipilimumab (subkutan)",
+  "status": "KI, ungeprüft"
+ },
+ "22095.04|Opdivo": {
+  "hash": "e873d10f0a",
+  "short": "Nierenzellkarzinom (RCC)",
+  "status": "automatisch"
+ },
+ "22095.05|Opdivo": {
+  "hash": "80140f682a",
+  "short": "Plattenepithelkarzinom im Kopf-Hals-Bereich (SCCHN)",
+  "status": "automatisch"
+ },
+ "22095.07|Opdivo": {
+  "hash": "55395e1e97",
+  "short": "Melanom adjuvant",
+  "status": "automatisch"
+ },
+ "22095.08|Opdivo": {
+  "hash": "c474c40663",
+  "short": "Kolorektales Karzinom (CRC) mit dMMR/MSI-H",
+  "status": "automatisch"
+ },
+ "22095.09|Opdivo": {
+  "hash": "5d1981ddf8",
+  "short": "Ösophaguskarzinom oder Karzinom des gastroösophagealen Übergangs (OC oder GEJC) adjuvant",
+  "status": "automatisch"
+ },
+ "22095.10|Opdivo": {
+  "hash": "d1cba73eee",
+  "short": "Nierenzellkarzinom (RCC)",
+  "status": "automatisch"
+ },
+ "22095.11|Opdivo": {
+  "hash": "df56a7e44f",
+  "short": "Kolorektales Karzinom (CRC) mit dMMR/MSI-H",
+  "status": "automatisch"
+ },
+ "22095.12|Opdivo": {
+  "hash": "cb6b0d054a",
+  "short": "Muskel-invasives Urothelkarzinom (MIUC) adjuvant",
+  "status": "automatisch"
+ },
+ "22095.13|Opdivo": {
+  "hash": "c8eef2d9a0",
+  "short": "Ösophageales Plattenepithelkarzinom (OSCC)",
+  "status": "automatisch"
+ },
+ "22095.16|Opdivo": {
+  "hash": "9bf7b63efe",
+  "short": "Adenokarzinom des Magens, des gastroösophagealen Übergangs oder des distalen Ösophagus (GC/GEJC/OC)",
+  "status": "automatisch"
+ },
+ "22095.18|Opdivo": {
+  "hash": "57851710a8",
+  "short": "1L RCC in Kombination mit Cabozantinib (nicht Teil des einheitlichen Abrechnungspreises)",
+  "status": "automatisch"
+ },
+ "22097.01|Tranexamic acid Leman": {
+  "hash": "6d9bc90359",
+  "short": "Blutungen bei Hyperfibrinolyse, Prophylaxe und Behandlung (ab 1 J.)",
+  "status": "KI, ungeprüft"
+ },
+ "22104.01|Nilotinib Zentiva": {
+  "hash": "ce4ec691e3",
+  "short": "CML Ph+ (chronische/akzelerierte Phase) bei Resistenz/Intoleranz auf Imatinib",
+  "status": "KI, ungeprüft"
+ },
+ "22108.01|Takhzyro": {
+  "hash": "4e9c5ddbfa",
+  "short": "In Monotherapie zur Langzeitprophylaxe von Attacken des hereditären Angioödems (HAE) vom Typ I oder Typ II bei Patienten ab 12 Jahren, die trotz on-demand",
+  "status": "automatisch"
+ },
+ "22116.01|Evfraxy": {
+  "hash": "675efc0687",
+  "short": "Osteoporose postmenopausal; Begleitbehandlung Mammakarzinom unter adjuvanter AI-Therapie",
+  "status": "KI, ungeprüft"
+ },
+ "22117.01|Vevzuo": {
+  "hash": "96ebc384e3",
+  "short": "Knochenmetastasen solider Tumoren; Riesenzelltumor des Knochens",
+  "status": "KI, ungeprüft"
+ },
+ "22123.01|Ezmekly": {
+  "hash": "1452136d3d",
+  "short": "Neurofibromatose Typ 1 mit symptomatischen inoperablen plexiformen Neurofibromen (ab 2 J.)",
+  "status": "KI, ungeprüft"
+ },
+ "22133.01|Obodence": {
+  "hash": "e971fae37f",
+  "short": "Osteoporose postmenopausal; Begleitbehandlung Mammakarzinom unter adjuvanter AI-Therapie",
+  "status": "KI, ungeprüft"
+ },
+ "22134.01|Xbryk": {
+  "hash": "96ebc384e3",
+  "short": "Knochenmetastasen solider Tumoren; Riesenzelltumor des Knochens",
+  "status": "KI, ungeprüft"
+ },
+ "22141.03|Eltrombopag Devatis": {
+  "hash": "a9cb782034",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Erwachsene",
+  "status": "automatisch"
+ },
+ "22141.04|Eltrombopag Devatis": {
+  "hash": "10515672b1",
+  "short": "Immunthrombozytopenische Purpura (ITP) – Kinder ab 6 Jahren",
+  "status": "automatisch"
+ },
+ "22145.01|Jubereq": {
+  "hash": "96ebc384e3",
+  "short": "Knochenmetastasen solider Tumoren; Riesenzelltumor des Knochens",
+  "status": "KI, ungeprüft"
+ },
+ "22152.01|Osvyrti": {
+  "hash": "bc7bf57571",
+  "short": "Osteoporose postmenopausal; Begleitbehandlung Mammakarzinom unter adjuvanter AI-Therapie",
+  "status": "KI, ungeprüft"
+ },
+ "22153.01|Paclitaxel-Albumin Accord": {
+  "hash": "1992b28cf3",
+  "short": "Adenokarzinom des Pankreas",
+  "status": "automatisch"
+ },
+ "22153.02|Paclitaxel-Albumin Accord": {
+  "hash": "6088c1a835",
+  "short": "Mammakarzinom metastasiert",
+  "status": "KI, ungeprüft"
+ },
+ "22159.01|Keytruda": {
+  "hash": "4911bb59f8",
+  "short": "1L NSCLC (Monotherapie) KN024",
+  "status": "automatisch"
+ },
+ "22159.02|Keytruda": {
+  "hash": "3303a883bb",
+  "short": "1L nicht-plattenepitheliales NSCLC (in Kombination mit Pemetrexed und Platin-Chemotherapie) KN189",
+  "status": "automatisch"
+ },
+ "22159.03|Keytruda": {
+  "hash": "a928ef6c97",
+  "short": "1L plattenepitheliales NSCLC (in Kombination mit Carboplatin und Paclitaxel) KN407",
+  "status": "automatisch"
+ },
+ "22159.04|Keytruda": {
+  "hash": "d47e1a5f83",
+  "short": "2L NSCLC (Monotherapie) KN010",
+  "status": "automatisch"
+ },
+ "22159.05|Keytruda": {
+  "hash": "f14b4776aa",
+  "short": "Melanom (Monotherapie) KN006",
+  "status": "automatisch"
+ },
+ "22159.06|Keytruda": {
+  "hash": "968e365f07",
+  "short": "Melanom adjuvant (Monotherapie) KN054",
+  "status": "automatisch"
+ },
+ "22159.07|Keytruda": {
+  "hash": "2e08350589",
+  "short": "Urothelkarzinom (Monotherapie) KN045",
+  "status": "automatisch"
+ },
+ "22159.08|Keytruda": {
+  "hash": "73dfb3c416",
+  "short": "1L Plattenepithelkarzinom im Kopf- und Halsbereich (HNSCC) (in Kombination mit Platin- und 5-Fluorouracil (5-FU)-haltiger Chemotherapie) KN048",
+  "status": "automatisch"
+ },
+ "22159.09|Keytruda": {
+  "hash": "cbfcc99cb1",
+  "short": "Vorbehandelte Patienten mit einem Plattenepithelkarzinom im Kopf- und Halsbereich nach platinbasierter Chemotherapie (HNSCC) (Monotherapie) KN040",
+  "status": "automatisch"
+ },
+ "22159.10|Keytruda": {
+  "hash": "4dc7cc8324",
+  "short": "Klassisches Hodgkin-Lymphom (Monotherapie) bei erwachsenen Patienten KN204",
+  "status": "automatisch"
+ },
+ "22159.12|Keytruda": {
+  "hash": "efb9ee7c0d",
+  "short": "3L Primäres mediastinales grosszelliges B-Zell-Lymphom (rrPMBCL) (Monotherapie) KN170",
+  "status": "automatisch"
+ },
+ "22159.13|Keytruda": {
+  "hash": "25784c6634",
+  "short": "1L metastasiertes kolorektales Karzinom (CRC) mit hoher Mikrosatelliteninstabilität (MSI-H) (Monotherapie) KN177",
+  "status": "automatisch"
+ },
+ "22159.14|Keytruda": {
+  "hash": "05974e1d1f",
+  "short": "2L nicht resezierbares metastasiertes kolorektales Karzinom (CRC) mit hoher Mikrosatelliteninstabilität (MSI-H) (Monotherapie) KN164",
+  "status": "automatisch"
+ },
+ "22159.15|Keytruda": {
+  "hash": "65e91d4e6d",
+  "short": "2L Endometriumkarzinom, Magenkarzinom, Dünndarmkarzinom oder Gallengangskarzinom mit hoher Mikrosatelliteninstabilität (MSI-H) (Monotherapie) KN158",
+  "status": "automatisch"
+ },
+ "22159.16|Keytruda": {
+  "hash": "25dafc6120",
+  "short": "1L Persistierendes, rezidivierendes oder metastasiertes Zervixkarzinom (in Kombination mit Platin-Chemotherapie und Paclitaxel, mit oder ohne Bevacizumab) KN826",
+  "status": "automatisch"
+ },
+ "22159.17|Keytruda": {
+  "hash": "c4f838ab53",
+  "short": "Lokal rezidiverendes, nicht resezierbares oder metastasiertes triple-negatives Mammakarzinom (in Kombination mit Chemotherapie) KN355",
+  "status": "automatisch"
+ },
+ "22159.18|Keytruda": {
+  "hash": "8532b464ce",
+  "short": "1L fortgeschrittenes Nierenzellkarzinom (RCC) (in Kombination mit Lenvatinib) KN581",
+  "status": "automatisch"
+ },
+ "22159.19|Keytruda": {
+  "hash": "2766e8757d",
+  "short": "2L Endometriumkarzinom (in Kombination mit Lenvatinib) (KN775)",
+  "status": "automatisch"
+ },
+ "22159.20|Keytruda": {
+  "hash": "c6ecfeb69b",
+  "short": "1L HER2+ Magenkarzinom oder Karzinom des gastroösophagealen Übergangs (GEJC) (in Kombination mit Trastuzumbab, Fluoropyrimidin und platinbasierter Chemotherapie) KN811",
+  "status": "automatisch"
+ },
+ "22159.21|Keytruda": {
+  "hash": "ae5e9a729a",
+  "short": "1L HER2- negatives Magenkarzinom oder Karzinom des gastroösophagealen Übergangs (GEJC) (in Kombination mit Fluoropyrimidin und platinbasierter Chemotherapie KN859",
+  "status": "automatisch"
+ },
+ "22159.22|Keytruda": {
+  "hash": "0bcc9a2f20",
+  "short": "Biliäres Karzinom KN966",
+  "status": "automatisch"
+ },
+ "22159.23|Keytruda": {
+  "hash": "b73bbaef04",
+  "short": "Triple-negatives Mammakarzinom (TNBC) neoadjuvant/adjuvant KN522",
+  "status": "automatisch"
+ },
+ "22159.24|Keytruda": {
+  "hash": "67d2e05cce",
+  "short": "Zervixkarzinom im FIGO 2014 Stadium III-IVA KNA18",
+  "status": "automatisch"
+ },
+ "22159.25|Keytruda": {
+  "hash": "0ab8d31687",
+  "short": "Nierenzellkarzinom (RCC) adjuvant KN564",
+  "status": "automatisch"
+ },
+ "22159.26|Keytruda": {
+  "hash": "1d93cc54b4",
+  "short": "NSCLC im Frühstadium, adjuvant KN091",
+  "status": "automatisch"
+ },
+ "22161.01|Retsevmo": {
+  "hash": "e4999cbfa8",
+  "short": "NSCLC RET-fusionspositiv metastasiert, 2L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "22161.02|Retsevmo": {
+  "hash": "f2e535db82",
+  "short": "Medulläres Schilddrüsenkarzinom RET-mutiert, fortgeschritten (ab 12 J.), Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "22161.03|Retsevmo": {
+  "hash": "4c1b88cc9a",
+  "short": "Papilläres Schilddrüsenkarzinom RET-Fusion, fortgeschritten, 2L, Monotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "22164.01|Abevmy": {
+  "hash": "4bec5f6a70",
+  "short": "Kolorektalkarzinom metastasiert, 1L, Kombination mit 5-FU/FS, FOLFIRI oder XELOX",
+  "status": "KI, ungeprüft"
+ },
+ "22164.02|Abevmy": {
+  "hash": "fa0d220cc5",
+  "short": "NSCLC nicht-plattenepithelial, 1L fortgeschritten/metastasiert/rezidivierend",
+  "status": "KI, ungeprüft"
+ },
+ "22164.03|Abevmy": {
+  "hash": "3454f98e65",
+  "short": "Nierenzellkarzinom 1L nach Nephrektomie, fortgeschritten/metastasiert, Kombination mit Interferon alfa-2a",
+  "status": "KI, ungeprüft"
+ },
+ "22164.04|Abevmy": {
+  "hash": "de4a055f5d",
+  "short": "Mammakarzinom HER2-negativ, 1L lokal rezidivierend/metastasiert, Kombination mit Paclitaxel",
+  "status": "KI, ungeprüft"
+ },
+ "22164.05|Abevmy": {
+  "hash": "8a97eba6f3",
+  "short": "Ovarialkarzinom FIGO III–IV, nicht vorbehandelt, nicht vollständig reseziert",
+  "status": "KI, ungeprüft"
+ },
+ "22164.06|Abevmy": {
+  "hash": "30e2ccefb9",
+  "short": "Zervixkarzinom persistierend/rezidivierend/metastasiert, Kombination mit Chemotherapie",
+  "status": "KI, ungeprüft"
+ },
+ "22164.07|Abevmy": {
+  "hash": "d3b4784239",
+  "short": "Glioblastom rezidivierend (WHO IV), 2L-Monotherapie nach Temozolomid",
+  "status": "KI, ungeprüft"
+ },
+ "22164.08|Abevmy": {
+  "hash": "60e0e8a9e1",
+  "short": "HCC inoperabel/metastasiert, Kombination mit Atezolizumab (Tecentriq)",
+  "status": "KI, ungeprüft"
+ },
+ "22164.09|Abevmy": {
+  "hash": "17a086fec4",
+  "short": "Ovarialkarzinom, Erhaltung nach 1L-Chemotherapie, Kombination mit Olaparib (Lynparza)",
+  "status": "KI, ungeprüft"
+ },
+ "22168.01|Nintedanib Leman Weichkaps": {
+  "hash": "f186096a2b",
+  "short": "Idiopathische Lungenfibrose (IPF)",
+  "status": "KI, ungeprüft"
+ },
+ "22168.02|Nintedanib Leman Weichkaps": {
+  "hash": "0856015050",
+  "short": "PF-ILD (progredient fibrosierende interstitielle Lungenerkrankung)",
+  "status": "KI, ungeprüft"
+ },
+ "22168.03|Nintedanib Leman Weichkaps": {
+  "hash": "da1863f8fa",
+  "short": "SSc-ILD (interstitielle Lungenerkrankung bei systemischer Sklerose)",
+  "status": "KI, ungeprüft"
+ }
+}

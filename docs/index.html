@@ -34,6 +34,8 @@ h1{font-size:24px;line-height:1.25;margin:0 0 6px;letter-spacing:-.01em}
 .sub{color:var(--muted);margin:0;font-size:14px}
 .stats{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:12px;font-size:13px;color:var(--muted)}
 .stats b{color:var(--ink);font-variant-numeric:tabular-nums}
+.credit{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.credit a{color:var(--accent)}
 .controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 12px;border-bottom:1px solid var(--line)}
 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 input[type=search]{flex:1 1 280px;min-width:0;font:inherit;padding:10px 12px;border:1px solid var(--line);
@@ -100,6 +102,7 @@ footer a{color:var(--accent)}
     <h1>Indikationscodes Onkologie &amp; Hämatologie</h1>
     <p class="sub">Arbeitshilfe auf Basis der BAG-Spezialitätenliste – welche Präparate einen Indikationscode verlangen, mit Code und Kurztext.</p>
     <div class="stats" id="stats">Daten werden geladen …</div>
+    <p class="credit">Erstellt für das Onkologie &amp; Hämatologie Zentrum, Spital Männedorf. Feedback und Hinweise bitte an Dr. Katharina Huss-Mischler (<a id="fb" data-u="k.huss" data-d="spitalmaennedorf.ch">k.huss [at] spitalmaennedorf.ch</a>).</p>
   </div>
 </header>
 
@@ -243,6 +246,10 @@ footer a{color:var(--accent)}
     if (order.length > 250) html += '<div class="empty">Weitere ' + (order.length - 250) + ' Präparate – Suche eingrenzen.</div>';
     $("list").innerHTML = html;
   }
+
+  (function(){ var a = $("fb"); if (!a) return;
+    var m = a.getAttribute("data-u") + "@" + a.getAttribute("data-d");
+    a.textContent = m; a.setAttribute("href", "mailto:" + m); })();
 
   var t;
   $("q").addEventListener("input", function(e){ clearTimeout(t); t = setTimeout(function(){ state.q = e.target.value.trim(); render(); }, 120); });

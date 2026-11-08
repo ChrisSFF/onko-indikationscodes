@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indikationscodes Onkologie</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e5f'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EIC%3C/text%3E%3C/svg%3E">
+<meta name="description" content="Arbeitshilfe: Indikationscodes gem√§ss BAG-Spezialit√§tenliste f√ºr onkologische und h√§matologische Arzneimittel.">
+<style>
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --ink:#1c2321; --muted:#5d6865; --line:#dfe3e0;
+  --accent:#1f4e5f; --accent-soft:#e3eef1; --code:#0f3d4c; --warn:#8a5a00; --warn-soft:#fbf1dc;
+  --new:#1d6b3a; --new-soft:#e2f2e7; --del:#9b2c2c; --del-soft:#f8e3e3;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121615; --surface:#1a201f; --ink:#e7ecea; --muted:#9aa7a3; --line:#2c3533;
+    --accent:#7fb7c9; --accent-soft:#1e3238; --code:#a8d8e8; --warn:#e6b85c; --warn-soft:#3a2f17;
+    --new:#7fd39b; --new-soft:#183222; --del:#f08c8c; --del-soft:#3a1d1d;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121615; --surface:#1a201f; --ink:#e7ecea; --muted:#9aa7a3; --line:#2c3533;
+  --accent:#7fb7c9; --accent-soft:#1e3238; --code:#a8d8e8; --warn:#e6b85c; --warn-soft:#3a2f17;
+  --new:#7fd39b; --new-soft:#183222; --del:#f08c8c; --del-soft:#3a1d1d;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{padding:28px 0 18px;border-bottom:1px solid var(--line);background:var(--surface)}
+h1{font-size:24px;line-height:1.25;margin:0 0 6px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0;font-size:14px}
+.stats{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:12px;font-size:13px;color:var(--muted)}
+.stats b{color:var(--ink);font-variant-numeric:tabular-nums}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 12px;border-bottom:1px solid var(--line)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+input[type=search]{flex:1 1 280px;min-width:0;font:inherit;padding:10px 12px;border:1px solid var(--line);
+  border-radius:8px;background:var(--surface);color:var(--ink)}
+input[type=search]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{font:inherit;font-size:14px;border:0;background:none;color:var(--muted);padding:9px 12px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:#fff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .seg button[aria-pressed=true]{color:#0d1a1e}}
+select{font:inherit;font-size:14px;padding:9px 10px;border:1px solid var(--line);border-radius:8px;
+  background:var(--surface);color:var(--ink);max-width:100%}
+.btn{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:14px;text-decoration:none;
+  padding:9px 12px;border-radius:8px;border:1px solid var(--accent);color:var(--accent);background:var(--surface)}
+.btn:hover{background:var(--accent-soft)}
+.count{font-size:13px;color:var(--muted);margin-top:8px}
+main{padding:16px 0 40px}
+.notice{background:var(--warn-soft);color:var(--ink);border:1px solid var(--line);border-left:4px solid var(--warn);
+  border-radius:8px;padding:10px 14px;font-size:13.5px;margin:0 0 16px}
+details.changes{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin:0 0 16px;padding:0 14px}
+details.changes summary{cursor:pointer;padding:12px 0;font-weight:600}
+.chg{font-size:13.5px;padding:2px 0 10px}
+.tag{display:inline-block;font-size:11.5px;font-weight:600;border-radius:4px;padding:1px 6px;margin-right:6px}
+.tag.new{background:var(--new-soft);color:var(--new)} .tag.chgd{background:var(--accent-soft);color:var(--accent)}
+.tag.del{background:var(--del-soft);color:var(--del)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin:0 0 12px;overflow:hidden}
+.card h2{font-size:17px;margin:0;line-height:1.3}
+.card .head{padding:12px 14px 10px;border-bottom:1px solid var(--line)}
+.meta{font-size:12.5px;color:var(--muted);margin-top:3px}
+.packs{font-size:12px;color:var(--muted);margin-top:4px}
+table{width:100%;border-collapse:collapse}
+td{vertical-align:top;padding:9px 14px;border-top:1px solid var(--line);font-size:14px}
+tr:first-child td{border-top:0}
+td.code{width:118px;white-space:nowrap}
+.codev{font:600 14.5px/1.3 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--code)}
+.copy{font-size:11.5px;border:1px solid var(--line);background:none;color:var(--muted);border-radius:4px;
+  padding:1px 6px;margin-top:4px;cursor:pointer}
+.copy:hover{color:var(--accent);border-color:var(--accent)}
+.short{margin:0}
+.ok{font-size:11.5px;color:var(--new);margin-left:6px;white-space:nowrap}
+.valid{font-size:12px;color:var(--muted);margin-top:2px}
+.more{font-size:12.5px;margin-top:4px}
+.more summary{cursor:pointer;color:var(--accent);width:max-content}
+.full{white-space:pre-wrap;font-size:13px;color:var(--muted);margin-top:6px;padding:8px 10px;background:var(--bg);
+  border-radius:6px;max-height:320px;overflow:auto}
+mark{background:#ffe9a8;color:inherit;border-radius:2px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) mark{background:#5c4a12}}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:18px 0 30px;font-size:12.5px;color:var(--muted)}
+footer a{color:var(--accent)}
+@media (max-width:600px){
+  h1{font-size:20px} td{padding:8px 12px} td.code{width:96px}
+  .controls{position:static} .seg{flex:1 1 100%} .seg button{flex:1} select,.btn{flex:1 1 100%;justify-content:center}
+  .codev{font-size:13.5px}
+}
+@media print{
+  .controls,.copy,.more summary,details.changes,.btn{display:none!important}
+  body{background:#fff} .card{break-inside:avoid;border-color:#bbb}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Indikationscodes Onkologie &amp; H√§matologie</h1>
+    <p class="sub">Arbeitshilfe auf Basis der BAG-Spezialit√§tenliste ‚Äì welche Pr√§parate einen Indikationscode verlangen, mit Code und Kurztext.</p>
+    <div class="stats" id="stats">Daten werden geladen ‚Ä¶</div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="row">
+      <input type="search" id="q" placeholder="Pr√§parat, Wirkstoff, Code oder Indikation suchen (z.B. Keytruda, NSCLC, 20416)" aria-label="Suche" autocomplete="off">
+      <div class="seg" role="group" aria-label="Umfang">
+        <button type="button" data-scope="onko" aria-pressed="true">Onko / H√§ma</button>
+        <button type="button" data-scope="all" aria-pressed="false">Alle Pr√§parate</button>
+      </div>
+      <select id="grp" aria-label="Gruppe"><option value="">Alle Gruppen</option></select>
+      <a class="btn" id="xlsx" href="Indikationscodes_Onkologie_Haematologie.xlsx" download>Excel herunterladen</a>
+    </div>
+    <div class="count" id="count"></div>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <p class="notice"><b>Arbeitshilfe, nicht verbindlich.</b> Massgebend ist allein die Spezialit√§tenliste des BAG (<a href="https://sl.bag.admin.ch/sl" target="_blank" rel="noopener">sl.bag.admin.ch</a>). Die Codes stammen unver√§ndert aus den BAG-Daten. Die Kurztexte sind gek√ºrzte Fassungen und noch nicht fachlich gepr√ºft (ausser mit ‚úì markiert) ‚Äì vor √úbernahme auf Verordnungen pr√ºfen. Verschiedene Darreichungsformen (z.B. i.v. und s.c.) k√∂nnen unterschiedliche Codes haben.</p>
+    <div id="changes"></div>
+    <div id="list"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Quelle: BAG, elektronische Plattform Leistungen (ePL), FHIR-Export der Spezialit√§tenliste (√∂ffentlich, CC0). Monatliche automatische Aktualisierung.
+    Abgelaufene Limitationen sind ausgeblendet. Allgemeine Hinweise ohne eigenen Code (z.B. ‚Äû.XX‚Äú, ‚Äû.RB‚Äú) erscheinen nur unter ‚ÄûAlle Pr√§parate‚Äú.
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var DATA = window.__CODES__ || null, META = window.__META__ || null, CHANGES = window.__CHANGES__ || null;
+  var state = { q: "", scope: "onko", grp: "" };
+  var $ = function(id){ return document.getElementById(id); };
+
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function norm(s){ return String(s || "").toLowerCase().normalize("NFD").replace(/[ÃÄ-ÕØ]/g, ""); }
+  function fmtDate(d){ if(!d) return ""; var p = d.split("-"); return p.length === 3 ? p[2]+"."+p[1]+"."+p[0] : d; }
+  function hl(text, terms){
+    var out = esc(text);
+    terms.forEach(function(t){
+      if (t.length < 2) return;
+      var re = new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+      out = out.replace(re, "<mark>$1</mark>");
+    });
+    return out;
+  }
+
+  function load(){
+    if (DATA) return Promise.resolve();
+    function j(u, fb){ return fetch(u, {cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : fb; }).catch(function(){ return fb; }); }
+    return Promise.all([j("data/codes.json", []), j("data/meta.json", {}), j("data/changes.json", [])])
+      .then(function(r){ DATA = r[0]; META = r[1]; CHANGES = r[2]; });
+  }
+
+  function init(){
+    DATA.forEach(function(r){
+      r._s = norm([r.brand, r.substance, r.code, r.short, r.text, r.atc, (r.products||[]).join(" ")].join(" "));
+    });
+    var groups = {};
+    DATA.forEach(function(r){ if (r.group) groups[r.group] = 1; });
+    Object.keys(groups).sort().forEach(function(g){
+      var o = document.createElement("option"); o.value = g; o.textContent = g; $("grp").appendChild(o);
+    });
+    var m = META || {};
+    $("stats").innerHTML =
+      "<span>Stand BAG-Daten: <b>" + esc(fmtDate(m.built)) + "</b></span>" +
+      "<span><b>" + (m.codes_onko||0) + "</b> Codes Onko/H√§ma</span>" +
+      "<span><b>" + (m.brands_onko||0) + "</b> Pr√§parate</span>" +
+      "<span><b>" + (m.codes_total||0) + "</b> Codes in der gesamten SL</span>";
+    renderChanges();
+    render();
+  }
+
+  function renderChanges(){
+    var h = (CHANGES || [])[0];
+    if (!h) return;
+    var n = h.added.length + h.changed.length + h.removed.length;
+    var onko = function(r){ return !!r.group; };
+    var items = [].concat(
+      h.added.filter(onko).map(function(r){ return ["new","neu",r]; }),
+      h.changed.filter(onko).map(function(r){ return ["chgd","ge√§ndert",r]; }),
+      h.removed.filter(onko).map(function(r){ return ["del","entfernt",r]; }));
+    var html = '<details class="changes"><summary>√Ñnderungen seit letzter Aktualisierung (' + esc(fmtDate(h.date)) + '): ' +
+      items.length + ' Onko/H√§ma' + (n !== items.length ? ', ' + n + ' gesamt' : '') + '</summary><div class="chg">';
+    if (!items.length) html += "Keine √Ñnderungen bei onkologischen/h√§matologischen Pr√§paraten.";
+    items.forEach(function(it){
+      html += '<div><span class="tag ' + it[0] + '">' + it[1] + '</span><b>' + esc(it[2].brand) + '</b> ' +
+        '<span class="codev">' + esc(it[2].code) + '</span> ‚Äì ' + esc(it[2].short) + '</div>';
+    });
+    $("changes").innerHTML = html + "</div></details>";
+  }
+
+  function render(){
+    var terms = norm(state.q).split(/\s+/).filter(Boolean);
+    var rows = DATA.filter(function(r){
+      if (state.scope === "onko" && !(r.group && r.specific)) return false;
+      if (state.grp && r.group !== state.grp) return false;
+      for (var i = 0; i < terms.length; i++) if (r._s.indexOf(terms[i]) === -1) return false;
+      return true;
+    });
+    var byBrand = {}, order = [];
+    rows.forEach(function(r){
+      var k = r.brand + "|" + (r.dossier || "");
+      if (!byBrand[k]) { byBrand[k] = []; order.push(k); }
+      byBrand[k].push(r);
+    });
+    order.sort(function(a,b){ return a.localeCompare(b, "de", {numeric:true}); });
+    var nb = {}; order.forEach(function(k){ nb[k.split("|")[0]] = 1; });
+    $("count").textContent = rows.length + " Codes ¬∑ " + Object.keys(nb).length + " Pr√§parate";
+    if (!rows.length) { $("list").innerHTML = '<div class="empty">Keine Treffer.</div>'; return; }
+
+    var rawTerms = state.q.split(/\s+/).filter(Boolean);
+    var html = "";
+    order.slice(0, 250).forEach(function(k){
+      var b = k.split("|")[0];
+      var list = byBrand[k].sort(function(x,y){ return x.code.localeCompare(y.code, "de", {numeric:true}); });
+      var f = list[0], packs = {};
+      list.forEach(function(r){ (r.products||[]).forEach(function(p){ packs[p] = 1; }); });
+      html += '<section class="card"><div class="head"><h2>' + hl(b, rawTerms) + '</h2>' +
+        '<div class="meta">' + hl(f.substance, rawTerms) + (f.atc ? ' ¬∑ ATC ' + esc(f.atc) : '') +
+        (f.group ? ' ¬∑ ' + esc(f.group) : '') + '</div>' +
+        '<div class="packs">' + esc(Object.keys(packs).sort().join(" ¬∑ ")) + '</div></div><table>';
+      list.forEach(function(r){
+        var flag = r.short_status === "gepr√ºft" ? '<span class="ok" title="Kurztext fachlich gepr√ºft">‚úì gepr√ºft</span>' : "";
+        var valid = (r.start ? "g√ºltig ab " + fmtDate(r.start) : "") + (r.end ? " ¬∑ befristet bis " + fmtDate(r.end) : "");
+        html += '<tr><td class="code"><div class="codev">' + hl(r.code, rawTerms) + '</div>' +
+          '<button class="copy" type="button" data-code="' + esc(r.code) + '">kopieren</button></td>' +
+          '<td><p class="short">' + hl(r.short, rawTerms) + flag + '</p>' +
+          (valid ? '<div class="valid">' + esc(valid) + '</div>' : '') +
+          '<details class="more"><summary>Limitationstext BAG</summary><div class="full">' + esc(r.text) + '</div></details></td></tr>';
+      });
+      html += "</table></section>";
+    });
+    if (order.length > 250) html += '<div class="empty">Weitere ' + (order.length - 250) + ' Pr√§parate ‚Äì Suche eingrenzen.</div>';
+    $("list").innerHTML = html;
+  }
+
+  var t;
+  $("q").addEventListener("input", function(e){ clearTimeout(t); t = setTimeout(function(){ state.q = e.target.value.trim(); render(); }, 120); });
+  $("grp").addEventListener("change", function(e){ state.grp = e.target.value; render(); });
+  Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(btn){
+    btn.addEventListener("click", function(){
+      state.scope = btn.getAttribute("data-scope");
+      Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(b){ b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
+      render();
+    });
+  });
+  $("list").addEventListener("click", function(e){
+    var b = e.target.closest(".copy"); if (!b) return;
+    var c = b.getAttribute("data-code");
+    var done = function(){ b.textContent = "kopiert ‚úì"; setTimeout(function(){ b.textContent = "kopieren"; }, 1400); };
+    if (navigator.clipboard) navigator.clipboard.writeText(c).then(done, function(){}); else done();
+  });
+
+  load().then(function(){
+    if (!DATA || !DATA.length) { $("list").innerHTML = '<div class="empty">Daten konnten nicht geladen werden.</div>'; return; }
+    init();
+  });
+})();
+</script>
+</body>
+</html>
